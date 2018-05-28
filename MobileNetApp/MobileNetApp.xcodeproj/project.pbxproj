@@ -13,8 +13,8 @@
 		556D1CED20BBA9FC0070537C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556D1CEC20BBA9FC0070537C /* Assets.xcassets */; };
 		556D1CF020BBA9FC0070537C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556D1CEE20BBA9FC0070537C /* LaunchScreen.storyboard */; };
 		556D1CFB20BBA9FC0070537C /* MobileNetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556D1CFA20BBA9FC0070537C /* MobileNetAppUITests.swift */; };
-		556D1D0620BBAA710070537C /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 556D1D0520BBAA710070537C /* MobileNet.mlmodel */; };
 		556D1D0820BBABCC0070537C /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556D1D0720BBABCC0070537C /* VideoCapture.swift */; };
+		556D1D0C20BBF0A30070537C /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 556D1D0B20BBF0A30070537C /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		556D1CF620BBA9FC0070537C /* MobileNetAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileNetAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		556D1CFA20BBA9FC0070537C /* MobileNetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNetAppUITests.swift; sourceTree = "<group>"; };
 		556D1CFC20BBA9FC0070537C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		556D1D0520BBAA710070537C /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		556D1D0720BBABCC0070537C /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		556D1D0B20BBF0A30070537C /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = "../../../../models/coreml-official/MobileNet.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		556D1CE420BBA9FA0070537C /* MobileNetApp */ = {
 			isa = PBXGroup;
 			children = (
-				556D1D0520BBAA710070537C /* MobileNet.mlmodel */,
+				556D1D0B20BBF0A30070537C /* MobileNet.mlmodel */,
 				556D1CE520BBA9FA0070537C /* AppDelegate.swift */,
 				556D1CE720BBA9FA0070537C /* ViewController.swift */,
 				556D1D0720BBABCC0070537C /* VideoCapture.swift */,
@@ -204,9 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				556D1D0820BBABCC0070537C /* VideoCapture.swift in Sources */,
+				556D1D0C20BBF0A30070537C /* MobileNet.mlmodel in Sources */,
 				556D1CE820BBA9FA0070537C /* ViewController.swift in Sources */,
 				556D1CE620BBA9FA0070537C /* AppDelegate.swift in Sources */,
-				556D1D0620BBAA710070537C /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5WXJ4Z4H69;
 				INFOPLIST_FILE = MobileNetApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,7 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5WXJ4Z4H69;
 				INFOPLIST_FILE = MobileNetApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
