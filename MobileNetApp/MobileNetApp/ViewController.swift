@@ -53,7 +53,9 @@ class ViewController: UIViewController, VideoCaptureDelegate {
         // Vision은 모델의 입력 크기(이미지 크기)에 따라 자동으로 조정해 줌
         visionModel = try? VNCoreMLModel(for: MobileNet().model)
         
+        // 카메라 세팅
         setUpCamera()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -100,28 +102,22 @@ class ViewController: UIViewController, VideoCaptureDelegate {
     
     func visionRequestDidComplete(request: VNRequest, error: Error?) {
         guard let results = request.results as? [VNClassificationObservation] else { return }
-        
         guard let firstResult = results.first else {return}
+        
+        // 메인큐에서 결과 출력
         DispatchQueue.main.async {
-            let resultText = "\(firstResult.identifier)".capitalized
-            let percentageText = "\(round(firstResult.confidence * 100)) %"
-            self.showOnMainThread("Result: \(resultText)\nConfidence: \(percentageText)")
+            self.showResults(identifier: "\(firstResult.identifier)".capitalized,
+                             confidence: firstResult.confidence)
         }
     }
     
-    func showOnMainThread(_ outputText: String) {
+    func showResults(identifier: String, confidence: VNConfidence) {
         
-        DispatchQueue.main.async {
-            print("outputText: \(outputText)")
-            if let labelText = outputText.split(separator: "\n").first {
-                self.labelLabel.text = String(labelText)
-            }
-            if let confidenceText = outputText.split(separator: "\n").last {
-                self.confidenceLabel.text = String(confidenceText)
-            }
-            
-            self.semaphore.signal()
-        }
+        self.labelLabel.text = identifier
+        self.confidenceLabel.text = "\(round(confidence * 100)) %"
+        
+        self.semaphore.signal()
+        
     }
     
     
