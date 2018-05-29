@@ -1,6 +1,6 @@
 # MobileNetApp for iOS
 
-![DEMO](https://github.com/tucan9389/mot-ios-tensorflow/blob/master/DEMO/MobileNetApp_test001.gif?raw=true)
+![DEMO](https://github.com/tucan9389/mot-ios-tensorflow/blob/master/demo/MobileNetApp_test001.gif?raw=true)
 
 ## 필요환경
 
