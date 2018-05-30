@@ -1,6 +1,6 @@
 # MobileNetApp for iOS
 
-![DEMO](https://github.com/tucan9389/mot-ios-tensorflow/blob/master/demo/MobileNetApp_test001.gif?raw=true)
+![DEMO](https://github.com/MachineLearningOfThings/mot-ios-tensorflow/blob/master/demo/MobileNetApp_test001.gif?raw=true)
 
 ## 필요환경
 
@@ -22,7 +22,7 @@
 
 ### 모델 가져오기
 
-![모델 불러오기.png](https://github.com/tucan9389/mot-ios-tensorflow/blob/master/MobileNetApp/resource/%EB%AA%A8%EB%8D%B8%20%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0.png?raw=true)
+![모델 불러오기.png](https://github.com/MachineLearningOfThings/mot-ios-tensorflow/blob/master/MobileNetApp/resource/%EB%AA%A8%EB%8D%B8%20%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0.png?raw=true)
 
 모델을 넣으셨으면 자동으로 모델 이름의 파일이 빌드경로 어딘가에 생성됩니다. 모델을 사용할때는 경로로 접근하는 것이 아니라 모델 클래스로 객체를 생성하여 접근할 수 있습니다.
 
