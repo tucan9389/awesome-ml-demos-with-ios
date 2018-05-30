@@ -12,7 +12,7 @@ Tensorflow에서 만든 모델을 iOS에서 사용해봅니다.
 
 ### Core ML을 이용할 때의 모델 흐름도
 
-![iOS ë¨¸ì ë¬ë íë¡ì¸ì¤.png](https://github.com/tucan9389/mot-ios-tensorflow/blob/master/Resource/iOS%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.png?raw=true)
+![iOS ë¨¸ì ë¬ë íë¡ì¸ì¤.png](https://github.com/MachineLearningOfThings/mot-ios-tensorflow/blob/master/Resource/iOS%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.png?raw=true)
 
 전체적인 흐름은 대부분의 ML 프레임워크가 비슷하게 사용됩니다. 각자 프레임워크에 **호환되는 모델 포멧**이 있으며, Tensorflow에서 만들어진 모델 포멧으로부터 **변환**시키는 작업이 필요합니다. 
 
