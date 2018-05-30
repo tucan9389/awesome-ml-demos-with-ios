@@ -54,12 +54,18 @@ let visionModel = try? VNCoreMLModel(for: MobileNet().model)
 ```swift
 // 완료 핸들러
 func visionRequestDidComplete(request: VNRequest, error: Error?) {
+
     guard let results = request.results as? [VNClassificationObservation] else { return }
     guard let firstResult = results.first else {return}
     
     //
     //
     // 완료 후 처리 부분
+    //
+    //
+    
+    // 완료 처리 후 비디오캡쳐큐를 다시 실행
+    self.semaphore.signal()
 }
 ```
 
@@ -73,8 +79,9 @@ let request = VNCoreMLRequest(model: visionModel, completionHandler: visionReque
 ```swift
 // MARK: - VideoCaptureDelegate
 func videoCapture(_ capture: VideoCapture, didCaptureVideoFrame pixelBuffer: CVPixelBuffer?) {
+
     // 메인큐로 이동하여 추론 할 동안, 비디오캡쳐큐는 멈추기
-    semaphore.wait()
+    self.semaphore.wait()
     
     // 카메라에서 캡쳐된 화면은 pixelBuffer에 담김
     if let pixelBuffer = pixelBuffer {
