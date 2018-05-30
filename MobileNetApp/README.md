@@ -43,6 +43,12 @@ https://github.com/eugenebokhan/Awesome-ML의 `VideoCapture ` 클래스를 사�
 5. 추론이 끝나면 아까 등록한 결과와함께 완료 핸들러가 호출됩니다.
 6. 결과를 받아 후처리를 하여 사용자에게 출력합니다.
 
+#### Core ML 불러오기
+```swift
+import CoreML
+import Vision
+```
+
 #### 모델 객체 생성
 
 ```swift
