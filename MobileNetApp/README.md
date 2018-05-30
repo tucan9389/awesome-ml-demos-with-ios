@@ -55,10 +55,9 @@ import Vision
 let visionModel = try? VNCoreMLModel(for: MobileNet().model)
 ```
 
-#### 완료 핸들러, 요청 객체 생성
+#### 완료 핸들러
 
 ```swift
-// 완료 핸들러
 func visionRequestDidComplete(request: VNRequest, error: Error?) {
 
     guard let results = request.results as? [VNClassificationObservation] else { return }
@@ -75,8 +74,8 @@ func visionRequestDidComplete(request: VNRequest, error: Error?) {
 }
 ```
 
+#### 요청 객체 생성
 ```swift
-// 요청 객체 생성
 let request = VNCoreMLRequest(model: visionModel, completionHandler: visionRequestDidComplete)
 ```
 
