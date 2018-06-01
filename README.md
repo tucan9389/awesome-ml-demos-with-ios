@@ -20,10 +20,21 @@ Tensorflow에서 만든 모델을 iOS에서 사용해봅니다.
 
 ## 과제
 
-### 1. MobileNetApp
+### 1. MobileNetApp-CoreML
 
-첫번째 프로젝트는 Core ML 프레임워크를 사용하여 [MobileNet 모델](https://developer.apple.com/kr/machine-learning/)을 실행시켜보는 예제입니다. 
+: Core ML 프레임워크를 사용하여 [MobileNet 모델](https://developer.apple.com/kr/machine-learning/)을 실행시켜보는 예제입니다. 
+
+☞ [프로젝트](./mot-ios-tensorflow/tree/master/MobileNetApp)
 
 ![DEMO](https://github.com/tucan9389/mot-ios-tensorflow/blob/master/demo/MobileNetApp_test001.gif?raw=true)
 
-☞ [프로젝트](https://github.com/tucan9389/mot-ios-tensorflow/tree/master/MobileNetApp)
+
+
+### 2. MobileNetApp-MLKit(준비중)
+
+
+
+### 3. MobileNetApp-TFLite(준비중)
+
+
+
