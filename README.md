@@ -1,6 +1,6 @@
 # mot-ios-tensorflow
 
-Tensorflow에서 만든 모델을 iOS에서 사용해봅니다.
+Tensorflow에서 만든 모델을 iOS에서 사용해봅니다. 
 
 ## iOS를 위한 ML 프레임워크
 
