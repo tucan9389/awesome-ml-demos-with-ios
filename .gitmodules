@@ -1,0 +1,3 @@
+[submodule "MobileNetApp-CoreML"]
+	path = MobileNetApp-CoreML
+	url = https://github.com/tucan9389/MobileNetApp-CoreML.git
