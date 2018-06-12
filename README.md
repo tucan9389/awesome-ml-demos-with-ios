@@ -24,7 +24,7 @@ Tensorflow에서 만든 모델을 iOS에서 사용해봅니다.
 
 : Core ML 프레임워크를 사용하여 [MobileNet 모델](https://developer.apple.com/kr/machine-learning/)을 실행시켜보는 예제입니다. 
 
-☞ [프로젝트](./MobileNetApp)
+☞ [프로젝트](./MobileNetApp-CoreML)
 
 ![DEMO](https://github.com/tucan9389/mot-ios-tensorflow/blob/master/demo/MobileNetApp_test001.gif?raw=true)
 
