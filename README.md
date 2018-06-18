@@ -35,6 +35,7 @@ Tensorflow에서 만든 모델을 iOS에서 사용해봅니다.
 : MLKit을 사용하여 MobileNet.tflite 모델을 실행시켜본 예제입니다.
 
 ☞ [프로젝트](https://github.com/tucan9389/MobileNetApp-MLKit)
+
 ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNetApp-MLKit-example.gif?raw=true)
 
 ### 3. MobileNetApp-TFLite(준비중)
