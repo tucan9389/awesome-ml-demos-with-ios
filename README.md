@@ -27,9 +27,9 @@ MobileNet 모델을 실행시켜본 예제입니다.
 1. [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)
 2. [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)
 
-| ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                    MobileNet with Core ML                    |                    MobileNet with ML Kit                     |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
 
 #### 2. Pose Estimation
 
