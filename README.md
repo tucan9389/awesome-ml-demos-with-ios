@@ -18,9 +18,9 @@ Tensorflow에서 만든 모델을 iOS에서 사용해봅니다.
 
 호환되는 모델을 준비했다면, ML 프레임워크를 사용하여 추론을 실행합니다. 추론을 실행하기 전/후에 **전처리/후처리**를 해줘야하며, ML 프레임워크마다 편의성의 정도가 다릅니다.
 
-## 과제
+## 모델 실행 예제
 
-#### 1. MobileNet
+### 1. MobileNet
 
 MobileNet 모델을 실행시켜본 예제입니다.
 
@@ -31,12 +31,36 @@ MobileNet 모델을 실행시켜본 예제입니다.
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
 
-#### 2. Pose Estimation
+### 2. Pose Estimation
 
 1. PoseEstimation-CoreML(준비중)
 2. PoseEstimation-MLKit(준비중)
 
 
 
+## 성능 측정 모듈
 
+### 1. 실행시간, fsp 계산 모듈(준비중)
 
+> PoseEstimation-CoreML에 구현되어있으나 모듈화 필요
+
+### 2. 테스트 프로젝트(준비중)
+
+#### 2-1. 단일 테스트
+
+> 한 입력에대한 한 결과 출력
+> 세부적인 결과 그리기
+> 디버깅용 테스트?
+>
+> - Pose Estimation: point마다 점을 찍고 연결, 각 point마다 confidence 출력
+> - ...
+
+#### 2-2. 묶음 테스트(기획중)
+
+> 여러 입력에대한 여러 결과를 종합적으로 분석
+>
+> - 평균 execution time, fps
+> - 누적 execution time, fps...?
+> - 총 execution time
+> - rendering time
+> - ...
