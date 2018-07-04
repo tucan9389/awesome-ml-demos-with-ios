@@ -20,25 +20,23 @@ Tensorflow에서 만든 모델을 iOS에서 사용해봅니다.
 
 ## 과제
 
-### 1. MobileNetApp-CoreML
+#### 1. MobileNet
 
-: Core ML 프레임워크를 사용하여 [MobileNet 모델](https://developer.apple.com/kr/machine-learning/)을 실행시켜보는 예제입니다. 
+MobileNet 모델을 실행시켜본 예제입니다.
 
-☞ [프로젝트](https://github.com/tucan9389/MobileNetApp-CoreML)
+1. [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)
+2. [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)
 
-![DEMO-CoreML](https://github.com/tucan9389/mot-ios-tensorflow/blob/master/demo/MobileNetApp_test001.gif?raw=true)
+| ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                    MobileNet with Core ML                    |                    MobileNet with ML Kit                     |
+
+#### 2. Pose Estimation
+
+1. PoseEstimation-CoreML(준비중)
+2. PoseEstimation-MLKit(준비중)
 
 
-
-### 2. MobileNetApp-MLKit
-
-: MLKit을 사용하여 MobileNet.tflite 모델을 실행시켜본 예제입니다.
-
-☞ [프로젝트](https://github.com/tucan9389/MobileNetApp-MLKit)
-
-![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNetApp-MLKit-example.gif?raw=true)
-
-### 3. MobileNetApp-TFLite(준비중)
 
 
 
