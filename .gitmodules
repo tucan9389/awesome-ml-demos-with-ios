@@ -4,3 +4,6 @@
 [submodule "MobileNetApp-MLKit"]
 	path = MobileNetApp-MLKit
 	url = https://github.com/tucan9389/MobileNetApp-MLKit.git
+[submodule "PoseEstimation-CoreML"]
+	path = PoseEstimation-CoreML
+	url = https://github.com/tucan9389/PoseEstimation-CoreML
