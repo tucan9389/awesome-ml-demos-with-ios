@@ -1,4 +1,4 @@
-# mot-ios-tensorflow
+# iOS Projects with Machine Learning Models
 
 Tensorflow에서 만든 모델을 iOS에서 사용해봅니다. 
 
