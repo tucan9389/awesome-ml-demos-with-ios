@@ -33,8 +33,8 @@ MobileNet 모델을 실행시켜본 예제입니다.
 
 ### 2. Pose Estimation
 
-1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)(준비중)
-2. PoseEstimation-MLKit(준비중)
+1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
+2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)(준비중)
 
 |                    PoseEstimation-CoreML                     | PoseEstimation-MLKit |
 | :----------------------------------------------------------: | :------------------: |
