@@ -12,7 +12,7 @@ This challenge is that using machine learning model created from tensorflow on i
 
 ### Flow of model when using Core ML
 
-![iOS ë¨¸ì ë¬ë íë¡ì¸ì¤.png](https://github.com/MachineLearningOfThings/mot-ios-tensorflow/blob/master/Resource/iOS%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.png?raw=true)
+![flow of model when using coreml](Resource/flow_of_model_when_using_coreml.png?raw=true)
 
 전체적인 흐름은 대부분의 ML 프레임워크가 비슷하게 사용됩니다. 각자 프레임워크에 **호환되는 모델 포멧**이 있으며, Tensorflow에서 만들어진 모델 포멧으로부터 **변환**시키는 작업이 필요합니다. 
 
@@ -36,11 +36,20 @@ Example project using MobileNet model.
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
 2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)(preparing..)
 
+#### Modules used
+
+- `Measure.swift`
+- `PoseView.swift`
+- `HeatmapView.swift`
+
 |                    PoseEstimation-CoreML                     | PoseEstimation-MLKit |
 | :----------------------------------------------------------: | :------------------: |
 | ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) |          -           |
 
+### 3. Text Detection & Recognition
 
+1. Text-Detection-And-Word-Recognition<br>
+   : word recognition after detecting text
 
 
 
