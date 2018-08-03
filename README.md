@@ -48,8 +48,8 @@ Example project using MobileNet model.
 
 ### 3. Text Detection & Recognition
 
-1. Text-Detection-And-Word-Recognition<br>
-   : word recognition after detecting text
+1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
+   :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
 
 
 
