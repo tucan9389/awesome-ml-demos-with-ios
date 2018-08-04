@@ -36,6 +36,8 @@ Example project using MobileNet model.
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
 2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)(preparing..)
 
+- PointLabelAnnotation(preparing...)
+
 #### Modules used
 
 - `Measure.swift`
