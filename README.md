@@ -14,9 +14,9 @@ This challenge is that using machine learning model created from tensorflow on i
 
 ![flow of model when using coreml](Resource/flow_of_model_when_using_coreml.png?raw=true)
 
-전체적인 흐름은 대부분의 ML 프레임워크가 비슷하게 사용됩니다. 각자 프레임워크에 **호환되는 모델 포멧**이 있으며, Tensorflow에서 만들어진 모델 포멧으로부터 **변환**시키는 작업이 필요합니다. 
+Almost machine learning framework have been used similar flow. **Convert** my model created from TensorFlow to a **model which is compatible with mobile machine learning framework**. Each framework have compatible model format, and  
 
-호환되는 모델을 준비했다면, ML 프레임워크를 사용하여 추론을 실행합니다. 추론을 실행하기 전/후에 **전처리/후처리**를 해줘야하며, ML 프레임워크마다 편의성의 정도가 다릅니다.
+Once prepared a compatible model, you can run inference by using machine learning framework(like Core ML or ML Kit..). You need **preprocess/postprocess** before/after inference on your project.
 
 ## Example projects using various machine learning model
 
