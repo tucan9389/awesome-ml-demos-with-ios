@@ -36,7 +36,8 @@ Example project using MobileNet model.
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
 2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)(preparing..)
 
-- PointLabelAnnotation(preparing...)
+- PointLabelAnnotation(preparing...)<br>
+  : Annotation tool for own custom estimation dataset
 
 #### Modules used
 
@@ -48,10 +49,22 @@ Example project using MobileNet model.
 | :----------------------------------------------------------: | :------------------: |
 | ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) |          -           |
 
+| PointLabelAnnotation(preparing...)                           |
+| ------------------------------------------------------------ |
+| ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
+
+
+
 ### 3. Text Detection & Recognition
 
 1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
    :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
+2. WordRecognition-MLKit(preparing...)<br>
+   : Just recognize words by using MLKit's text detection function.
+
+| WordRecognition-CoreML-MLKit                                 | WordRecognition-MLKit |
+| ------------------------------------------------------------ | --------------------- |
+| ![recognition a word demo](Resource/recognition_a_word_demo002.gif) | -                     |
 
 
 
