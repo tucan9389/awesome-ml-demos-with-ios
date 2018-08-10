@@ -49,6 +49,8 @@ Example project using MobileNet model.
 | :----------------------------------------------------------: | :------------------: |
 | ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) |          -           |
 
+#### 2-1. Annotation Tool
+
 | PointLabelAnnotation(preparing...)                           |
 | ------------------------------------------------------------ |
 | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
