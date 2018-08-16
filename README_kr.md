@@ -6,9 +6,8 @@ Tensorflow에서 만든 모델을 iOS에서 사용해봅니다.
 
 - [Core ML](https://developer.apple.com/documentation/coreml)
 - [MLKit](https://developers.google.com/ml-kit/)
-- [Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/)
-- [Tensorflow Mobile](https://www.tensorflow.org/mobile/)
-- etc.
+- 
+- etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), [Tensorflow Mobile](https://www.tensorflow.org/mobile/))
 
 ### Core ML을 이용할 때의 모델 흐름도
 
@@ -36,11 +35,29 @@ MobileNet 모델을 실행시켜본 예제입니다.
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
 2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)(준비중)
 
+- [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(준비중...)<br>
+  : 커스텀 에스티메이션 데이터셋을 준비하기위한 어노테이션 툴
+
 |                    PoseEstimation-CoreML                     | PoseEstimation-MLKit |
 | :----------------------------------------------------------: | :------------------: |
-| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/blob/master/resource/180705-poseestimation-demo.gif?raw=true) |          -           |
+| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) |          -           |
 
+#### 2-1. Annotation Tool
 
+| KeypointAnnotation(preparing...)                             |
+| ------------------------------------------------------------ |
+| ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
+
+### TextDetection & Recognition
+
+1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(준비중...)<br>
+   : Core ML의 내장된 Text Detection으로 글자를 Detect한 뒤, 단어를 찾아서, ML Kit으로 단어를 인식.
+2. WordRecognition-MLKit(준비중...)<br>
+   : MLKit의 내장된 Text Recognition 기능을 사용하여 단어를 인식.
+
+| WordRecognition-CoreML-MLKit                                 | WordRecognition-MLKit |
+| ------------------------------------------------------------ | --------------------- |
+| ![recognition a word demo](Resource/recognition_a_word_demo002.gif) | -                     |
 
 
 
@@ -61,7 +78,7 @@ MobileNet 모델을 실행시켜본 예제입니다.
 > - Pose Estimation: point마다 점을 찍고 연결, 각 point마다 confidence 출력
 > - ...
 
-#### 2-2. 묶음 테스트(기획중)
+#### 2-2. 묶음 테스트(구상중...)
 
 > 여러 입력에대한 여러 결과를 종합적으로 분석
 >
