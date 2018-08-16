@@ -62,7 +62,7 @@ Example project using MobileNet model.
 1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
    :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
 2. WordRecognition-MLKit(preparing...)<br>
-   : Just recognize words by using MLKit's text detection function.
+   : Just recognize words by using MLKit's text recognition function.
 
 | WordRecognition-CoreML-MLKit                                 | WordRecognition-MLKit |
 | ------------------------------------------------------------ | --------------------- |
