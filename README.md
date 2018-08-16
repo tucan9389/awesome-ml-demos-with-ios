@@ -36,7 +36,7 @@ Example project using MobileNet model.
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
 2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)(preparing..)
 
-- PointLabelAnnotation(preparing...)<br>
+- [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(preparing...)<br>
   : Annotation tool for own custom estimation dataset
 
 #### Modules used
@@ -51,7 +51,7 @@ Example project using MobileNet model.
 
 #### 2-1. Annotation Tool
 
-| PointLabelAnnotation(preparing...)                           |
+| KeypointAnnotation(preparing...)                             |
 | ------------------------------------------------------------ |
 | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
