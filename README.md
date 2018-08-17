@@ -34,7 +34,7 @@ Example project using MobileNet model.
 ### 2. Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)(preparing..)
+2. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)(preparing..)
 
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(preparing...)<br>
   : Annotation tool for own custom estimation dataset
@@ -45,9 +45,9 @@ Example project using MobileNet model.
 - `PoseView.swift`
 - `HeatmapView.swift`
 
-|                    PoseEstimation-CoreML                     | PoseEstimation-MLKit |
-| :----------------------------------------------------------: | :------------------: |
-| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) |          -           |
+|                    PoseEstimation-CoreML                     |                  FingertipEstimation-CoreML                  |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) |
 
 #### 2-1. Annotation Tool
 
