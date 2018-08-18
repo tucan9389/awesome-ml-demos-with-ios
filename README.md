@@ -12,11 +12,13 @@ This challenge is that using machine learning model created from tensorflow on i
 
 ### Flow of model when using Core ML
 
-![flow of model when using coreml](Resource/flow_of_model_when_using_coreml.png?raw=true)
+[![flow of model when using coreml](Resource/flow_of_model_when_using_coreml.png?raw=true)](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing)
 
 Almost machine learning framework have been used similar flow. **Convert** my model created from TensorFlow to a **model which is compatible with mobile machine learning framework**. Each framework have compatible model format, and  
 
 Once prepared a compatible model, you can run inference by using machine learning framework(like Core ML or ML Kit..). You need **preprocess/postprocess** before/after inference on your project.
+
+If you want more explanation, check [this slide(Korean)](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing).
 
 ## Example projects using various machine learning model
 
