@@ -34,7 +34,7 @@ Example project using MobileNet model.
 ### 2. Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-2. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)(preparing..)
+2. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
 
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(preparing...)<br>
   : Annotation tool for own custom estimation dataset
