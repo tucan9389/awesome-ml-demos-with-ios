@@ -6,16 +6,17 @@ Tensorflow에서 만든 모델을 iOS에서 사용해봅니다.
 
 - [Core ML](https://developer.apple.com/documentation/coreml)
 - [MLKit](https://developers.google.com/ml-kit/)
-- 
 - etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), [Tensorflow Mobile](https://www.tensorflow.org/mobile/))
 
 ### Core ML을 이용할 때의 모델 흐름도
 
-![iOS ë¨¸ì ë¬ë íë¡ì¸ì¤.png](https://github.com/MachineLearningOfThings/mot-ios-tensorflow/blob/master/Resource/iOS%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4.png?raw=true)
+[![flow of model when using coreml](Resource/flow_of_model_when_using_coreml.png?raw=true)](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing)
 
 전체적인 흐름은 대부분의 ML 프레임워크가 비슷하게 사용됩니다. 각자 프레임워크에 **호환되는 모델 포멧**이 있으며, Tensorflow에서 만들어진 모델 포멧으로부터 **변환**시키는 작업이 필요합니다. 
 
 호환되는 모델을 준비했다면, ML 프레임워크를 사용하여 추론을 실행합니다. 추론을 실행하기 전/후에 **전처리/후처리**를 해줘야하며, ML 프레임워크마다 편의성의 정도가 다릅니다.
+
+> 더 자세한 설명은 [슬라이드 자료](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing)를 참고해주세요.
 
 ## 모델 실행 예제
 
@@ -33,14 +34,14 @@ MobileNet 모델을 실행시켜본 예제입니다.
 ### 2. Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)(준비중)
+2. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
 
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(준비중...)<br>
   : 커스텀 에스티메이션 데이터셋을 준비하기위한 어노테이션 툴
 
-|                    PoseEstimation-CoreML                     | PoseEstimation-MLKit |
-| :----------------------------------------------------------: | :------------------: |
-| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) |          -           |
+|                    PoseEstimation-CoreML                     |                  FingertipEstimation-CoreML                  |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) |
 
 #### 2-1. Annotation Tool
 
@@ -48,7 +49,7 @@ MobileNet 모델을 실행시켜본 예제입니다.
 | ------------------------------------------------------------ |
 | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
-### TextDetection & Recognition
+### 3. TextDetection & Recognition
 
 1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(준비중...)<br>
    : Core ML의 내장된 Text Detection으로 글자를 Detect한 뒤, 단어를 찾아서, ML Kit으로 단어를 인식.
