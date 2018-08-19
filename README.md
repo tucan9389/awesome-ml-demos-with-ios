@@ -8,7 +8,7 @@ This challenge is that using machine learning model created from tensorflow on i
 
 - [Core ML](https://developer.apple.com/documentation/coreml)
 - [MLKit](https://developers.google.com/ml-kit/)
-- etc.([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), [Tensorflow Mobile](https://www.tensorflow.org/mobile/))
+- etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), [Tensorflow Mobile](https://www.tensorflow.org/mobile/))
 
 ### Flow of model when using Core ML
 
@@ -98,3 +98,22 @@ Example project using MobileNet model.
 > - rendering time
 > - total execution time
 > - ...
+
+
+
+## See also
+
+- [Core ML | Apple Developer Documentation](https://developer.apple.com/documentation/coreml)
+- [Machine Learning - Apple Developer](https://developer.apple.com/machine-learning/)
+- WWDC17 - Core ML 발표자료 
+  - [WWDC17 703 Session - Introducing Core ML](https://developer.apple.com/videos/play/wwdc2017/703/)
+  - [WWDC17 710 Session - Core ML in depth](https://developer.apple.com/videos/play/wwdc2017/710/)
+  - [WWDC17 506 Session - Vision Framework: Building on Core ML](https://developer.apple.com/videos/play/wwdc2017/506)
+- WWDC18 - Core ML 2 발표자료
+  - [WWDC18 708 Session - What’s New in Core ML, Part 1](https://developer.apple.com/videos/play/wwdc2018/708/)
+  - [WWDC18 709 Session - What’s New in Core ML, Part 2](https://developer.apple.com/videos/play/wwdc2018/709/)
+  - [WWDC18 717 Session - Vision with Core ML](https://developer.apple.com/videos/play/wwdc2018/717/)
+- [ML Kit - Firebase](https://developers.google.com/ml-kit/)
+- [Apple's Core ML 2 vs. Google's ML Kit: What's the difference?](https://venturebeat.com/2018/06/05/apples-core-ml-2-vs-googles-ml-kit-whats-the-difference/)
+- [iOS에서 머신러닝 슬라이드 자료](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing)
+- [MoTLabs Blog](https://motlabs.github.io/)
