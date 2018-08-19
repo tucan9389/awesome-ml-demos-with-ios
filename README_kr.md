@@ -37,10 +37,16 @@ MobileNet 모델을 실행시켜본 예제입니다.
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
 
-### 2. Pose Estimation
+### 2. Keypoint Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-2. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)<br>
+   1. PoseEstimationForMobile에서 제공하는 모델 준비
+   2. iOS에서 CoreML 실시간으로 추론
+2. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
+   1. dont-be-turtle 프로젝트로 학습하여 모델 준비
+   2. CoreML 모델로 변환
+   3. iOS에서 CoreML 실시간으로 추론
+3. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)<br>
    1. 직접 촬영한 5천개의 손가락 사진 준비
    2. KeypointAnnotation 앱으로 어노테이션 시켜 데이터셋 준비
    3. PoseEstimationForMobile 프로젝트로 학습하여 모델 생성 
@@ -50,15 +56,17 @@ MobileNet 모델을 실행시켜본 예제입니다.
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(준비중...)<br>
   : 커스텀 Estimation 데이터셋을 준비하기위한 어노테이션 툴
 
-|                    PoseEstimation-CoreML                     |                  FingertipEstimation-CoreML                  |
+#### 2.1 Pose Estimation
+
+|                    PoseEstimation-CoreML                     |                      dont-be-turtle-ios                      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) |
+| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) | ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
 
-#### 2-1. Annotation Tool
+#### 2.2 Fingertip Estimation
 
-| KeypointAnnotation(preparing...)                             |
-| ------------------------------------------------------------ |
-| ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
+| FingertipEstimation-CoreML                                   | KeypointAnnotation(preparing...)                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
 ### 3. TextDetection & Recognition
 

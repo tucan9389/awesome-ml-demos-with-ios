@@ -33,10 +33,11 @@ Example project using MobileNet model.
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
 
-### 2. Pose Estimation
+### 2. Keypoint Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-2. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
+2. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
+3. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
 
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(preparing...)<br>
   : Annotation tool for own custom estimation dataset
@@ -47,15 +48,17 @@ Example project using MobileNet model.
 - `PoseView.swift`
 - `HeatmapView.swift`
 
-|                    PoseEstimation-CoreML                     |                  FingertipEstimation-CoreML                  |
+#### 2.1 Pose Estimation
+
+|                    PoseEstimation-CoreML                     |                      dont-be-turtle-ios                      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) |
+| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) | ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
 
-#### 2-1. Annotation Tool
+#### 2.2 Fingertip Estimation
 
-| KeypointAnnotation(preparing...)                             |
-| ------------------------------------------------------------ |
-| ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
+| FingertipEstimation-CoreML                                   | KeypointAnnotation(preparing...)                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
 
 
