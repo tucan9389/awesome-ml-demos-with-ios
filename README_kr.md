@@ -1,6 +1,12 @@
 # iOS Projects with Machine Learning Models
 
-Tensorflow에서 만든 모델을 iOS에서 사용해봅니다. 
+TensorFlow에서 만든 머신러닝 모델을 iOS에서 사용해봅니다. 
+
+## 들어가며
+
+[MoT Lab](https://motlabs.github.io/)에 iOS 개발 담당으로 있으면서 만들어봤던 프로젝트들입니다. 공개하기에 좋은 코드는 아니지만 iOS에서 머신러닝을 돌려보았을때 어떤 것들이 어디까지 구현가능한지 영감을 얻는데 도움이 될 수 있지 않을까 생각했습니다. 
+
+공개된 프로젝트에대해 조언이나 개선사항은 이슈에 남겨주세요. PR은 언제나 환영입니다.
 
 ## iOS를 위한 ML 프레임워크
 
@@ -34,10 +40,15 @@ MobileNet 모델을 실행시켜본 예제입니다.
 ### 2. Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-2. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
+2. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)<br>
+   1. 직접 촬영한 5천개의 손가락 사진 준비
+   2. KeypointAnnotation 앱으로 어노테이션 시켜 데이터셋 준비
+   3. PoseEstimationForMobile 프로젝트로 학습하여 모델 생성 
+   4. CoreML 모델로 변환
+   5. iOS에서 CoreML 실시간으로 추론
 
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(준비중...)<br>
-  : 커스텀 에스티메이션 데이터셋을 준비하기위한 어노테이션 툴
+  : 커스텀 Estimation 데이터셋을 준비하기위한 어노테이션 툴
 
 |                    PoseEstimation-CoreML                     |                  FingertipEstimation-CoreML                  |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -88,3 +99,22 @@ MobileNet 모델을 실행시켜본 예제입니다.
 > - 총 execution time
 > - rendering time
 > - ...
+
+
+
+## See also
+
+- [Core ML | Apple Developer Documentation](https://developer.apple.com/documentation/coreml)
+- [Machine Learning - Apple Developer](https://developer.apple.com/machine-learning/)
+- WWDC17 - Core ML 발표자료 
+  - [WWDC17 703 Session - Introducing Core ML](https://developer.apple.com/videos/play/wwdc2017/703/)
+  - [WWDC17 710 Session - Core ML in depth](https://developer.apple.com/videos/play/wwdc2017/710/)
+  - [WWDC17 506 Session - Vision Framework: Building on Core ML](https://developer.apple.com/videos/play/wwdc2017/506)
+- WWDC18 - Core ML 2 발표자료
+  - [WWDC18 708 Session - What’s New in Core ML, Part 1](https://developer.apple.com/videos/play/wwdc2018/708/)
+  - [WWDC18 709 Session - What’s New in Core ML, Part 2](https://developer.apple.com/videos/play/wwdc2018/709/)
+  - [WWDC18 717 Session - Vision with Core ML](https://developer.apple.com/videos/play/wwdc2018/717/)
+- [ML Kit - Firebase](https://developers.google.com/ml-kit/)
+- [Apple's Core ML 2 vs. Google's ML Kit: What's the difference?](https://venturebeat.com/2018/06/05/apples-core-ml-2-vs-googles-ml-kit-whats-the-difference/)
+- [iOS에서 머신러닝 슬라이드 자료](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing)
+- [MoTLabs Blog](https://motlabs.github.io/)
