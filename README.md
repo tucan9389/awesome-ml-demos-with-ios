@@ -2,6 +2,8 @@
 
 This challenge is that using machine learning model created from tensorflow on iOS with Core ML or ML Kit(TensorFlow Lite)
 
+> *‼️ PR for English advice always makes me happy ‼️*
+
 [한국어 README](https://github.com/motlabs/iOS-Proejcts-with-ML-Models/blob/master/README_kr.md)
 
 ## Machine Learning Framework for iOS
