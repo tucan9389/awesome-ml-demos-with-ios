@@ -41,7 +41,7 @@ Example project using MobileNet model.
 2. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
 3. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
 
-- [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(preparing...)<br>
+- [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)<br>
   : Annotation tool for own custom estimation dataset
 
 #### Modules used
@@ -58,7 +58,7 @@ Example project using MobileNet model.
 
 #### 2.2 Fingertip Estimation
 
-| FingertipEstimation-CoreML                                   | KeypointAnnotation(preparing...)                             |
+| FingertipEstimation-CoreML                                   | KeypointAnnotation                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
