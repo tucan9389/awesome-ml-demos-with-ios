@@ -22,6 +22,10 @@ Once prepared a compatible model, you can run inference by using machine learnin
 
 > If you want more explanation, check [this slide(Korean)](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing).
 
+### Flow of model when using Create ML
+
+![createml 머신러닝 프로세스](/Users/canapio/Project/machine%20learning/MoT%20Labs/github_project/iOS-Proejcts-with-ML-Models/Resource/createml%20%E1%84%86%E1%85%A5%E1%84%89%E1%85%B5%E1%86%AB%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3.png)
+
 ## Example projects using various machine learning model
 
 #### DONE
@@ -93,7 +97,13 @@ Example project using MobileNet model.
 | ------------------------------------------------------------ | --------------------- |
 | ![recognition a word demo](Resource/recognition_a_word_demo002.gif) | -                     |
 
+### 4. A Simple Classification Using Create ML and Core ML
 
+1. [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML)
+
+| Create ML                                                    | Core ML                            |
+| ------------------------------------------------------------ | ---------------------------------- |
+| ![IMG_0436](Resource/playground-createml-validation-001.PNG) | ![IMG_0436](Resource/IMG_0436.PNG) |
 
 ## Module of performance measurement
 
