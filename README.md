@@ -103,7 +103,7 @@ Example project using MobileNet model.
 
 | Create ML                                                    | Core ML                            |
 | ------------------------------------------------------------ | ---------------------------------- |
-| ![IMG_0436](Resource/playground-createml-validation-001.PNG) | ![IMG_0436](Resource/IMG_0436.PNG) |
+| ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) |
 
 ## Module of performance measurement
 
