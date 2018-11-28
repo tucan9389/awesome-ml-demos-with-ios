@@ -24,7 +24,7 @@ Once prepared a compatible model, you can run inference by using machine learnin
 
 ### Flow of model when using Create ML
 
-![createml 머신러닝 프로세스](/Users/canapio/Project/machine%20learning/MoT%20Labs/github_project/iOS-Proejcts-with-ML-Models/Resource/flow_of_model_when_using_createml.png)
+![playground-createml-validation-001](Resource/flow_of_model_when_using_createml.png)
 
 ## Example projects using various machine learning model
 
