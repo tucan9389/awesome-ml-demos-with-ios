@@ -132,6 +132,10 @@ Example project using MobileNet model.
 > - total execution time
 > - ...
 
+## Author
+
+- [tucan9389](https://github.com/tucan9389)
+
 ## See also
 
 - [Core ML | Apple Developer Documentation](https://developer.apple.com/documentation/coreml)

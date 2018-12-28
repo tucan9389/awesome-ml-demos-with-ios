@@ -108,7 +108,9 @@ MobileNet 모델을 실행시켜본 예제입니다.
 > - rendering time
 > - ...
 
+## Author 
 
+- [tucan9389](https://github.com/tucan9389)
 
 ## See also
 
