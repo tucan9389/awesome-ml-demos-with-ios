@@ -57,7 +57,7 @@ Example project using MobileNet model.
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
 
-### 2. Keypoint Estimation
+### 2. Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
 2. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
