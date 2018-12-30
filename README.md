@@ -76,7 +76,7 @@ Example project using MobileNet model.
 
 |                    PoseEstimation-CoreML                     |                      dont-be-turtle-ios                      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) | ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
+| ![180705-poseestimation-demo.gif](Resource/180801-poseestimation-demo.gif) | ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
 
 #### 2.2 Fingertip Estimation
 
