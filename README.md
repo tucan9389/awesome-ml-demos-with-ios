@@ -1,6 +1,6 @@
 # iOS Projects with Machine Learning Models
 
-Use TensorFlow models in iOS using Mobile ML Frameworks like CoreML, ML Kit, TensorFlow Lite, etc.
+Use TensorFlow models in iOS with Core ML and ML Kit (TensorFlow Lite).
 
 > *‼️ PR for English advice always makes me happy ‼️*
 
