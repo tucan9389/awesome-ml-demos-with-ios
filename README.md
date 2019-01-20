@@ -8,8 +8,8 @@ Use TensorFlow models in iOS using Mobile ML Frameworks like CoreML, ML Kit, Ten
 
 ## Machine Learning Framework for iOS
 
-- [CoreML](https://developer.apple.com/documentation/coreml)
-- [MLKit](https://developers.google.com/ml-kit/)
+- [Core ML](https://developer.apple.com/documentation/coreml)
+- [ML Kit](https://developers.google.com/ml-kit/)
 - etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), [Tensorflow Mobile](https://www.tensorflow.org/mobile/))
 
 ### Flow of Model When Using Core ML
