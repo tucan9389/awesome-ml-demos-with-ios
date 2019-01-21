@@ -1,6 +1,6 @@
 # iOS Projects with Machine Learning Models
 
-Use TensorFlow models in iOS with Core ML and ML Kit (TensorFlow Lite).
+This challenge is that using machine learning model created from TensorFlow on iOS with Core ML or ML Kit(TensorFlow Lite).
 
 > *‼️ PR for English advice always makes me happy ‼️*
 
@@ -32,7 +32,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 - Using built-in model with Core ML
 
-- Using built-in on-device model with ML Kit 
+- Using built-in on-device model with ML Kit
 - Using custom model for Vision with Core ML and ML Kit
 
 #### TODO
@@ -140,7 +140,7 @@ Example project using MobileNet model.
 
 - [Core ML | Apple Developer Documentation](https://developer.apple.com/documentation/coreml)
 - [Machine Learning - Apple Developer](https://developer.apple.com/machine-learning/)
-- WWDC17 - Core ML 발표자료 
+- WWDC17 - Core ML 발표자료
   - [WWDC17 703 Session - Introducing Core ML](https://developer.apple.com/videos/play/wwdc2017/703/)
   - [WWDC17 710 Session - Core ML in depth](https://developer.apple.com/videos/play/wwdc2017/710/)
   - [WWDC17 506 Session - Vision Framework: Building on Core ML](https://developer.apple.com/videos/play/wwdc2017/506)
