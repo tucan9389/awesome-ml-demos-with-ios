@@ -1,6 +1,6 @@
 # iOS Projects with Machine Learning Models
 
-This challenge is that using machine learning model created from tensorflow on iOS with Core ML or ML Kit(TensorFlow Lite)
+Use TensorFlow models in iOS with Core ML and ML Kit (TensorFlow Lite).
 
 > *‼️ PR for English advice always makes me happy ‼️*
 
@@ -9,24 +9,24 @@ This challenge is that using machine learning model created from tensorflow on i
 ## Machine Learning Framework for iOS
 
 - [Core ML](https://developer.apple.com/documentation/coreml)
-- [MLKit](https://developers.google.com/ml-kit/)
+- [ML Kit](https://developers.google.com/ml-kit/)
 - etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), [Tensorflow Mobile](https://www.tensorflow.org/mobile/))
 
-### Flow of model when using Core ML
+### Flow of Model When Using Core ML
 
-[![flow of model when using coreml](Resource/flow_of_model_when_using_coreml.png?raw=true)](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing)
+[![Flow of Model When Using Core ML](Resource/flow_of_model_when_using_coreml.png?raw=true)](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing)
 
-Almost machine learning framework have been used similar flow. **Convert** my model created from TensorFlow to a **model which is compatible with mobile machine learning framework**. Each framework have compatible model format, and  
+The overall flow is very similar for most ML frameworks. Each framework has its own compatible model format. We need to take the model created in TensorFlow and **convert it into the appropriate format, for each mobile ML framework**.
 
-Once prepared a compatible model, you can run inference by using machine learning framework(like Core ML or ML Kit..). You need **preprocess/postprocess** before/after inference on your project.
+Once the compatible model is prepared, you can run the inference using the ML framework. Note that you must perform **pre/postprocessing** manually.
 
 > If you want more explanation, check [this slide(Korean)](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing).
 
-### Flow of model when using Create ML
+### Flow of Model When Using Create ML
 
 ![playground-createml-validation-001](Resource/flow_of_model_when_using_createml.png)
 
-## Example projects using various machine learning model
+## Example Projects Using Various Machine Learning Models
 
 #### DONE
 
@@ -66,7 +66,7 @@ Example project using MobileNet model.
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)<br>
   : Annotation tool for own custom estimation dataset
 
-#### Modules used
+#### Modules Used
 
 - `Measure.swift`
 - `PoseView.swift`
@@ -105,13 +105,13 @@ Example project using MobileNet model.
 | ------------------------------------------------------------ | ---------------------------------- |
 | ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) |
 
-## Module of performance measurement
+## Module of Performance Measurement
 
-### 1. Inference duration, Excution duration and FPS evaluation module(preparing...)
+### 1. Inference Duration, Excution Duration and FPS Evaluation Module (preparing...)
 
 > This function is implemented(`Measure.swift`) in [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML), but need to modulization.
 
-### 2. Evalutation Project(preparing...)
+### 2. Evalutation Project (preparing...)
 
 #### 2-1. Unit Test
 
@@ -122,7 +122,7 @@ Example project using MobileNet model.
 > - Pose Estimation: draw dot each point and joint, print confidence each point.
 > - ...
 
-#### 2-2. Bunch Test(planning...)
+#### 2-2. Bunch Test (planning...)
 
 > Analyze outputs from a bunch of inputs
 >
