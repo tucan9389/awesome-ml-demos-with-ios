@@ -60,8 +60,9 @@ Example project using MobileNet model.
 ### 2. Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-2. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
-3. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
+2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)
+3. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
+4. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
 
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)<br>
   : Annotation tool for own custom estimation dataset
@@ -74,17 +75,19 @@ Example project using MobileNet model.
 
 #### 2.1 Pose Estimation
 
-|                    PoseEstimation-CoreML                     |                      dont-be-turtle-ios                      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![180705-poseestimation-demo.gif](Resource/180801-poseestimation-demo.gif) | ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
+|                    PoseEstimation-CoreML                     | PoseEstimation-MLKit |
+| :----------------------------------------------------------: | :------------------: |
+| ![180705-poseestimation-demo.gif](Resource/180801-poseestimation-demo.gif) | (DEMO preparing...)  |
+
+| dont-be-turtle-ios                                           |
+| ------------------------------------------------------------ |
+| ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
 
 #### 2.2 Fingertip Estimation
 
 | FingertipEstimation-CoreML                                   | KeypointAnnotation                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
-
-
 
 ### 3. Text Detection & Recognition
 
@@ -93,9 +96,9 @@ Example project using MobileNet model.
 2. WordRecognition-MLKit(preparing...)<br>
    : Just recognize words by using MLKit's text recognition function.
 
-| WordRecognition-CoreML-MLKit                                 | WordRecognition-MLKit |
-| ------------------------------------------------------------ | --------------------- |
-| ![recognition a word demo](Resource/recognition_a_word_demo002.gif) | -                     |
+|                 WordRecognition-CoreML-MLKit                 | WordRecognition-MLKit |
+| :----------------------------------------------------------: | :-------------------: |
+| ![recognition a word demo](Resource/recognition_a_word_demo002.gif) |  (DEMO preparing...)  |
 
 ### 4. A Simple Classification Using Create ML and Core ML
 
