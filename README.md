@@ -30,20 +30,20 @@ Once prepared a compatible model, you can run inference by using machine learnin
 
 #### DONE
 
-- using built-in model with Core ML
+- Using built-in model with Core ML
 
-- using built-in on-device model with ML Kit 
-- using custom model for Vision with Core ML and ML Kit
+- Using built-in on-device model with ML Kit 
+- Using custom model for Vision with Core ML and ML Kit
 
 #### TODO
 
-- using built-in cloud model on ML Kit
-  - landmark recognition
-
-- using custom model for NLP with Core ML and ML Kit
-- using custom model for Audio with Core ML and ML Kit
-  - audio recognition
-  - speech recognition
+- Object Detection with Core ML and ML Kit
+- Using built-in cloud model on ML Kit
+  - Landmark recognition
+- Using custom model for NLP with Core ML and ML Kit
+- Using custom model for Audio with Core ML and ML Kit
+  - Audio recognition
+  - Speech recognition
   - TTS
 
 ### 1. MobileNet
