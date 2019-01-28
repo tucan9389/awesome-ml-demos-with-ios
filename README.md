@@ -1,4 +1,4 @@
-# iOS Projects with Machine Learning Models
+![iOS-Projects-with-ML-Models-Logo](Resource/iOS-Projects-with-ML-Models-Logo@3x.png)
 
 This challenge is that using machine learning model created from TensorFlow on iOS with Core ML or ML Kit(TensorFlow Lite).
 

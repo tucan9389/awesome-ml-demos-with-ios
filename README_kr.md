@@ -1,4 +1,4 @@
-# iOS Projects with Machine Learning Models
+![iOS-Projects-with-ML-Models-Logo](Resource/iOS-Projects-with-ML-Models-Logo@3x.png)
 
 TensorFlow에서 만든 머신러닝 모델을 iOS에서 사용해봅니다. 
 
