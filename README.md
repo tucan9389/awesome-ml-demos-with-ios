@@ -75,9 +75,9 @@ Example project using MobileNet model.
 
 #### 2.1 Pose Estimation
 
-|                    PoseEstimation-CoreML                     | PoseEstimation-MLKit |
-| :----------------------------------------------------------: | :------------------: |
-| ![180705-poseestimation-demo.gif](Resource/180801-poseestimation-demo.gif) | (DEMO preparing...)  |
+|                    PoseEstimation-CoreML                     |                     PoseEstimation-MLKit                     |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![180705-poseestimation-demo.gif](Resource/180801-poseestimation-demo.gif) | ![PoseEstimation-MLKit-hourglass](Resource/PoseEstimation-MLKit-hourglass.gif) |
 
 | dont-be-turtle-ios                                           |
 | ------------------------------------------------------------ |

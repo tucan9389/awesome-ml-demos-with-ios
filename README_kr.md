@@ -40,27 +40,36 @@ MobileNet 모델을 실행시켜본 예제입니다.
 ### 2. Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-   1. PoseEstimationForMobile에서 제공하는 모델 준비
-   2. iOS에서 CoreML 실시간으로 추론
-2. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
+   1. PoseEstimationForMobile에서 제공하는 Core ML 모델 준비
+   2. iOS에서 CoreML으로 실시간 추론
+2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)
+   1. PoseEstimationForMobile에서 제공하는 tflite 모델 준비
+   2. iOS에서 ML Kit으로 실시간 추론
+
+3. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
    1. dont-be-turtle 프로젝트로 학습하여 모델 준비
    2. CoreML 모델로 변환
-   3. iOS에서 CoreML 실시간으로 추론
-3. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)<br>
+   3. iOS에서 CoreML으로 실시간 추론
+
+4. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)<br>
    1. 직접 촬영한 5천개의 손가락 사진 준비
    2. KeypointAnnotation 앱으로 어노테이션 시켜 데이터셋 준비
    3. PoseEstimationForMobile 프로젝트로 학습하여 모델 생성 
    4. CoreML 모델로 변환
-   5. iOS에서 CoreML 실시간으로 추론
+   5. iOS에서 CoreML으로 실시간 추론
 
-- [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(준비중...)<br>
+- [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(준비중...)<br
   : 커스텀 Estimation 데이터셋을 준비하기위한 어노테이션 툴
 
 #### 2.1 Pose Estimation
 
-|                    PoseEstimation-CoreML                     |                      dont-be-turtle-ios                      |
+|                    PoseEstimation-CoreML                     |                     PoseEstimation-MLKit                     |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![180705-poseestimation-demo.gif](https://github.com/tucan9389/PoseEstimation-CoreML/raw/master/resource/180801-poseestimation-demo.gif?raw=true) | ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
+| ![180705-poseestimation-demo.gif](Resource/180801-poseestimation-demo.gif) | ![PoseEstimation-MLKit-hourglass](Resource/PoseEstimation-MLKit-hourglass.gif) |
+
+| dont-be-turtle-ios                                           |
+| ------------------------------------------------------------ |
+| ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
 
 #### 2.2 Fingertip Estimation
 
