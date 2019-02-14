@@ -77,7 +77,15 @@ MobileNet 모델을 실행시켜본 예제입니다.
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
-### 3. TextDetection & Recognition
+### 3. Object Detection
+
+1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: 90개의 물체를 인지(물체의 위치와 크기를 찾고 카테고리를 식별합니다).
+
+| SSDMobileNet-CoreML |
+| ------------------- |
+| (DEMO 준비중...)    |
+
+### 4. TextDetection & Recognition
 
 1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(준비중...)<br>
    : Core ML의 내장된 Text Detection으로 글자를 Detect한 뒤, 단어를 찾아서, ML Kit으로 단어를 인식.

@@ -2,8 +2,6 @@
 
 This challenge is that using machine learning model created from TensorFlow on iOS with Core ML or ML Kit(TensorFlow Lite).
 
-> *‼️ PR for English advice always makes me happy ‼️*
-
 [한국어 README](https://github.com/motlabs/iOS-Proejcts-with-ML-Models/blob/master/README_kr.md)
 
 ## Machine Learning Framework for iOS
@@ -89,7 +87,15 @@ Example project using MobileNet model.
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
-### 3. Text Detection & Recognition
+### 3. Object Detection
+
+1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: Detect 90 objects(find the object box of position and size and identify the category).
+
+| SSDMobileNet-CoreML |
+| ------------------- |
+| (DEMO preparing...) |
+
+### 4. Text Detection & Recognition
 
 1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
    :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
@@ -100,7 +106,7 @@ Example project using MobileNet model.
 | :----------------------------------------------------------: | :-------------------: |
 | ![recognition a word demo](Resource/recognition_a_word_demo002.gif) |  (DEMO preparing...)  |
 
-### 4. A Simple Classification Using Create ML and Core ML
+### 5. A Simple Classification Using Create ML and Core ML
 
 1. [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML)
 
