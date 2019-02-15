@@ -1,6 +1,6 @@
 ![iOS-Projects-with-ML-Models-Logo](Resource/iOS-Projects-with-ML-Models-Logo@3x.png)
 
-This challenge is that using machine learning model created from TensorFlow on iOS with Core ML or ML Kit(TensorFlow Lite).
+We tackle the challenge of using machine learning models created from TensorFlow on iOS via Core ML and ML Kit (TensorFlow Lite).
 
 [한국어 README](https://github.com/motlabs/iOS-Proejcts-with-ML-Models/blob/master/README_kr.md)
 
