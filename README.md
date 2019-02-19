@@ -122,11 +122,11 @@ Example project using MobileNet model.
 
 |                              |      Inference Time(ms)       | Execution Time(ms) | FPS  |
 | ---------------------------: | :---------------------------: | :----------------: | :--: |
-|             MobileNet-CoreML |               -               |         -          |  -   |
-|              MobileNet-MLKit |               -               |         -          |  -   |
+|             MobileNet-CoreML |              40               |         40         |  23  |
+|              MobileNet-MLKit |              120              |        130         |  6   |
 |        PoseEstimation-CoreML |              51               |         65         |  14  |
-|         PoseEstimation-MLKit |              200              |        220         |  3   |
-|          SSDMobileNet-CoreML |               -               |         -          |  -   |
+|         PoseEstimation-MLKit |              200              |        217         |  3   |
+|          SSDMobileNet-CoreML |              72               |        180         |  5   |
 | WordRecognition-CoreML-MLKit | 4(Detection), 17(Recognition) |         30         |  14  |
 
 ### 📏Measure module
