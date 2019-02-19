@@ -114,15 +114,30 @@ Example project using MobileNet model.
 | ------------------------------------------------------------ | ---------------------------------- |
 | ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) |
 
-## Module of Performance Measurement
+## Performance
 
-### 1. Inference Duration, Excution Duration and FPS Evaluation Module (preparing...)
+> Execution Time: Inference Time + Postprocessing Time
+>
+> WordRecognition-CoreML-MLKit: Text Detection(Core ML built-in model) + Text Recognition(ML Kit built-in model)
 
-> This function is implemented(`Measure.swift`) in [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML), but need to modulization.
+|                              |      Inference Time(ms)       | Execution Time(ms) | FPS  |
+| ---------------------------: | :---------------------------: | :----------------: | :--: |
+|             MobileNet-CoreML |               -               |         -          |  -   |
+|              MobileNet-MLKit |               -               |         -          |  -   |
+|        PoseEstimation-CoreML |              51               |         65         |  14  |
+|         PoseEstimation-MLKit |              200              |        220         |  3   |
+|          SSDMobileNet-CoreML |               -               |         -          |  -   |
+| WordRecognition-CoreML-MLKit | 4(Detection), 17(Recognition) |         30         |  14  |
 
-### 2. Evalutation Project (preparing...)
+### 📏Measure module
 
-#### 2-1. Unit Test
+You can see the measured latency time for inference or execution and FPS on the top of the screen.
+
+![measure_ui](Resource/measure_ui.jpeg)
+
+### Evalutation Project
+
+#### Unit Test
 
 > Show output for each input?
 > Drawing detail of result?
@@ -131,7 +146,7 @@ Example project using MobileNet model.
 > - Pose Estimation: draw dot each point and joint, print confidence each point.
 > - ...
 
-#### 2-2. Bunch Test (planning...)
+#### Bunch Test (planning...)
 
 > Analyze outputs from a bunch of inputs
 >
@@ -140,6 +155,16 @@ Example project using MobileNet model.
 > - rendering time
 > - total execution time
 > - ...
+
+### Implements
+
+|                       | Measure📏 | Unit Test | Bunch Test |
+| --------------------: | :------: | :-------: | :--------: |
+|      MobileNet-CoreML |    O     |     X     |     X      |
+|       MobileNet-MLKit |    O     |     X     |     X      |
+| PoseEstimation-CoreML |    O     |     O     |     X      |
+|  PoseEstimation-MLKit |    O     |     X     |     X      |
+|   SSDMobileNet-CoreML |    O     |     O     |     X      |
 
 ## Author
 
