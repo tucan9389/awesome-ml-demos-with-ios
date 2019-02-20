@@ -99,14 +99,14 @@ Example project using MobileNet model.
 
 ### 4. Text Detection & Recognition
 
-1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
-   :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
-2. TextDetection-CoreML<br>
+1. [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br>
    : Detect character using Vision built-in model.
+2. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
+   :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
 
-|                 WordRecognition-CoreML-MLKit                 |                     TextDetection-CoreML                     |
+|                     TextDetection-CoreML                     |                 WordRecognition-CoreML-MLKit                 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![recognition a word demo](Resource/recognition_a_word_demo002.gif) | ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) |
+| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif)- |
 
 ### 5. A Simple Classification Using Create ML and Core ML
 

@@ -89,13 +89,13 @@ MobileNet 모델을 실행시켜본 예제입니다.
 
 ### 4. TextDetection & Recognition
 
-1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(준비중...)<br>
+1. [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br>: Vision의 내장된 모델을 사용하여 텍스트를 찾기.
+2. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(준비중...)<br>
    : Core ML의 내장된 Text Detection으로 글자를 찾고, 단어를 찾아서, ML Kit으로 단어를 인식.
-2. TextDetection-CoreML<br>: Vision의 내장된 모델을 사용하여 텍스트를 찾기.
 
-|                 WordRecognition-CoreML-MLKit                 |                     TextDetection-CoreML                     |
+|                     TextDetection-CoreML                     |                 WordRecognition-CoreML-MLKit                 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![recognition a word demo](Resource/recognition_a_word_demo002.gif) | ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif)- |
+| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif)- |
 
 
 
