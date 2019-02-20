@@ -1,8 +1,10 @@
 ![iOS-Projects-with-ML-Models-Logo](Resource/iOS-Projects-with-ML-Models-Logo@3x.png)
 
-We tackle the challenge of using machine learning models created from TensorFlow on iOS via Core ML and ML Kit (TensorFlow Lite).
+We tackle the challenge of using machine learning models on iOS via Core ML and ML Kit (TensorFlow Lite).
 
 [한국어 README](https://github.com/motlabs/iOS-Proejcts-with-ML-Models/blob/master/README_kr.md)
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Machine Learning Framework for iOS
 
