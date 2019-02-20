@@ -101,12 +101,12 @@ Example project using MobileNet model.
 
 1. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
    :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
-2. WordRecognition-MLKit(preparing...)<br>
-   : Just recognize words by using MLKit's text recognition function.
+2. TextDetection-CoreML<br>
+   : Detect character using Vision built-in model.
 
-|                 WordRecognition-CoreML-MLKit                 | WordRecognition-MLKit |
-| :----------------------------------------------------------: | :-------------------: |
-| ![recognition a word demo](Resource/recognition_a_word_demo002.gif) |  (DEMO preparing...)  |
+|                 WordRecognition-CoreML-MLKit                 |                     TextDetection-CoreML                     |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![recognition a word demo](Resource/recognition_a_word_demo002.gif) | ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) |
 
 ### 5. A Simple Classification Using Create ML and Core ML
 
@@ -122,14 +122,15 @@ Example project using MobileNet model.
 >
 > WordRecognition-CoreML-MLKit: Text Detection(Core ML built-in model) + Text Recognition(ML Kit built-in model)
 
-|                              |      Inference Time(ms)       | Execution Time(ms) | FPS  |
-| ---------------------------: | :---------------------------: | :----------------: | :--: |
-|             MobileNet-CoreML |              40               |         40         |  23  |
-|              MobileNet-MLKit |              120              |        130         |  6   |
-|        PoseEstimation-CoreML |              51               |         65         |  14  |
-|         PoseEstimation-MLKit |              200              |        217         |  3   |
-|          SSDMobileNet-CoreML |              72               |        180         |  5   |
-| WordRecognition-CoreML-MLKit | 4(Detection), 17(Recognition) |         30         |  14  |
+|                              | Inference Time(ms) | Execution Time(ms) |   FPS   |
+| ---------------------------: | :----------------: | :----------------: | :-----: |
+|             MobileNet-CoreML |         40         |         40         |   23    |
+|              MobileNet-MLKit |        120         |        130         |    6    |
+|        PoseEstimation-CoreML |         51         |         65         |   14    |
+|         PoseEstimation-MLKit |        200         |        217         |    3    |
+|          SSDMobileNet-CoreML |         72         |        180         |    5    |
+| WordRecognition-CoreML-MLKit |         23         |         30         |   14    |
+|                TextDetection |         12         |         13         | 30(max) |
 
 ### 📏Measure module
 
@@ -166,6 +167,7 @@ You can see the measured latency time for inference or execution and FPS on the 
 |       MobileNet-MLKit |    O     |     X     |     X      |
 | PoseEstimation-CoreML |    O     |     O     |     X      |
 |  PoseEstimation-MLKit |    O     |     X     |     X      |
+|  TextDetection-CoreML |    O     |     X     |     X      |
 |   SSDMobileNet-CoreML |    O     |     O     |     X      |
 
 ## Author
