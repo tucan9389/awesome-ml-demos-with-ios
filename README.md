@@ -91,11 +91,11 @@ Example project using MobileNet model.
 
 ### 3. Object Detection
 
-1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: Detect 90 objects(find the object box of position and size and identify the category).
+1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: Detect 90 objects(find the object box of position and size and identify the cate`gory).
 
-| SSDMobileNet-CoreML |
-| ------------------- |
-| (DEMO preparing...) |
+| SSDMobileNet-CoreML                                          |
+| ------------------------------------------------------------ |
+| ![SSDMobileNet-CoreML_DEMO001](Resource/SSDMobileNet-CoreML_DEMO001.gif) |
 
 ### 4. Text Detection & Recognition
 

@@ -83,9 +83,9 @@ MobileNet 모델을 실행시켜본 예제입니다.
 
 1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: 90개의 물체를 인지(물체의 위치와 크기를 찾고 카테고리를 식별합니다).
 
-| SSDMobileNet-CoreML |
-| ------------------- |
-| (DEMO 준비중...)    |
+| SSDMobileNet-CoreML                                          |
+| ------------------------------------------------------------ |
+| ![SSDMobileNet-CoreML_DEMO001](Resource/SSDMobileNet-CoreML_DEMO001.gif) |
 
 ### 4. TextDetection & Recognition
 
