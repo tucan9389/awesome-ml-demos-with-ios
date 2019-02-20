@@ -53,7 +53,7 @@ Example project using MobileNet model.
 1. [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)
 2. [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)
 
-|                    MobileNet with Core ML                    |                    MobileNet with ML Kit                     |
+| [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
 
@@ -75,17 +75,17 @@ Example project using MobileNet model.
 
 #### 2.1 Pose Estimation
 
-|                    PoseEstimation-CoreML                     |                     PoseEstimation-MLKit                     |
+| [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![180705-poseestimation-demo.gif](Resource/180801-poseestimation-demo.gif) | ![PoseEstimation-MLKit-hourglass](Resource/PoseEstimation-MLKit-hourglass.gif) |
 
-| dont-be-turtle-ios                                           |
+| [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios) |
 | ------------------------------------------------------------ |
 | ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
 
 #### 2.2 Fingertip Estimation
 
-| FingertipEstimation-CoreML                                   | KeypointAnnotation                                           |
+| [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) | [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
@@ -93,7 +93,7 @@ Example project using MobileNet model.
 
 1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: Detect 90 objects(find the object box of position and size and identify the cate`gory).
 
-| SSDMobileNet-CoreML                                          |
+| [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML) |
 | ------------------------------------------------------------ |
 | ![SSDMobileNet-CoreML_DEMO001](Resource/SSDMobileNet-CoreML_DEMO001.gif) |
 
@@ -101,12 +101,13 @@ Example project using MobileNet model.
 
 1. [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br>
    : Detect character using Vision built-in model.
-2. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
+2. [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br>: Recognize text using Firebase built-in model.
+3. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
    :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
 
-|                     TextDetection-CoreML                     |                 WordRecognition-CoreML-MLKit                 |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif)- |
+| [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit) |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO001](Resource/TextRecognition-MLKit_DEMO001.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif)- |
 
 ### 5. A Simple Classification Using Create ML and Core ML
 
@@ -129,8 +130,9 @@ Example project using MobileNet model.
 |        PoseEstimation-CoreML |         51         |         65         |   14    |
 |         PoseEstimation-MLKit |        200         |        217         |    3    |
 |          SSDMobileNet-CoreML |         72         |        180         |    5    |
+|         TextDetection-CoreML |         12         |         13         | 30(max) |
+|        TextRecognition-MLKit |       35~200       |       40~200       |  5~20   |
 | WordRecognition-CoreML-MLKit |         23         |         30         |   14    |
-|                TextDetection |         12         |         13         | 30(max) |
 
 ### 📏Measure module
 
@@ -167,8 +169,11 @@ You can see the measured latency time for inference or execution and FPS on the 
 |       MobileNet-MLKit |    O     |     X     |     X      |
 | PoseEstimation-CoreML |    O     |     O     |     X      |
 |  PoseEstimation-MLKit |    O     |     X     |     X      |
-|  TextDetection-CoreML |    O     |     X     |     X      |
 |   SSDMobileNet-CoreML |    O     |     O     |     X      |
+|  TextDetection-CoreML |    O     |     X     |     X      |
+| TextRecognition-MLKit |    O     |     X     |     X      |
+
+
 
 ## Author
 
