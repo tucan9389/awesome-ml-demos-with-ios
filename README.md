@@ -107,7 +107,7 @@ Example project using MobileNet model.
 
 | [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO001](Resource/TextRecognition-MLKit_DEMO001.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif)- |
+| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO002](Resource/TextRecognition-MLKit_DEMO002.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif)- |
 
 ### 5. A Simple Classification Using Create ML and Core ML
 
