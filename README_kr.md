@@ -106,7 +106,7 @@ MobileNet 모델을 실행시켜본 예제입니다.
 | ------------------------------------------------------------ | ---------------------------------- |
 | ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) |
 
-## ⏰성능
+## 성능
 
 > 실행시간: 추론시간 + 후처리시간
 >
@@ -127,7 +127,7 @@ MobileNet 모델을 실행시켜본 예제입니다.
 
 데모 상단에서 추론시간, 실행시간, fps를 실시간으로 확인할 수 있습니다.
 
-![measure_ui](/Users/canapio/Project/machine%20learning/MoT%20Labs/github_project/iOS-Proejcts-with-ML-Models/Resource/measure_ui.jpeg)
+![measure_ui](Resource/measure_ui.jpeg)
 
 ### 테스트
 
