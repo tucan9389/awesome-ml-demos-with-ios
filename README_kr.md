@@ -96,20 +96,42 @@ MobileNet 모델을 실행시켜본 예제입니다.
 
    | [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit) |
    | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-   | ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO002](Resource/TextRecognition-MLKit_DEMO002.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif)- |
+   | ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO002](Resource/TextRecognition-MLKit_DEMO002.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif) |
 
+### 5. Create ML과 Core ML을 사용한 간단한 분류
 
+1. [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML)
 
+| Create ML                                                    | Core ML                            |
+| ------------------------------------------------------------ | ---------------------------------- |
+| ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) |
 
-## 성능 측정 모듈
+## ⏰성능
 
-### 1. 실행시간, fsp 계산 모듈(준비중)
+> 실행시간: 추론시간 + 후처리시간
+>
+> WordRecognition-CoreML-MLKit: Text Detection(내장 Core ML 모델) + Text Recognition(내장 ML Kit 모델)
 
-> PoseEstimation-CoreML에 구현되어있으나 모듈화 필요
+|                              | 추론시간(ms) | 실행시간(ms) |   FPS   |
+| ---------------------------: | :----------: | :----------: | :-----: |
+|             MobileNet-CoreML |      40      |      40      |   23    |
+|              MobileNet-MLKit |     120      |     130      |    6    |
+|        PoseEstimation-CoreML |      51      |      65      |   14    |
+|         PoseEstimation-MLKit |     200      |     217      |    3    |
+|          SSDMobileNet-CoreML |      72      |     180      |    5    |
+|         TextDetection-CoreML |      12      |      13      | 30(max) |
+|        TextRecognition-MLKit |    35~200    |    40~200    |  5~20   |
+| WordRecognition-CoreML-MLKit |      23      |      30      |   14    |
 
-### 2. 테스트 프로젝트(준비중)
+### 📏Measure 모듈
 
-#### 2-1. 단일 테스트
+데모 상단에서 추론시간, 실행시간, fps를 실시간으로 확인할 수 있습니다.
+
+![measure_ui](/Users/canapio/Project/machine%20learning/MoT%20Labs/github_project/iOS-Proejcts-with-ML-Models/Resource/measure_ui.jpeg)
+
+### 테스트
+
+#### 단일 테스트
 
 > 한 입력에대한 한 결과 출력
 > 세부적인 결과 그리기
@@ -118,7 +140,7 @@ MobileNet 모델을 실행시켜본 예제입니다.
 > - Pose Estimation: point마다 점을 찍고 연결, 각 point마다 confidence 출력
 > - ...
 
-#### 2-2. 묶음 테스트(구상중...)
+#### 묶음 테스트(준비중...)
 
 > 여러 입력에대한 여러 결과를 종합적으로 분석
 >
