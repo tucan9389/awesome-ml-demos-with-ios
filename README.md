@@ -1,4 +1,4 @@
-![awesome-ml-demos-with-ios-logo](Resource/awesome-ml-demos-with-ios-logo.jpg)
+![awesome-ml-demos-with-ios-logo](Resource/awesome-ml-demos-with-ios-logo.jpg)<br>
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/motlabs/awesome-ml-demos-with-ios) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Awesome Machine Learning DEMOs with iOS
@@ -13,20 +13,20 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
   - [Flow of Model When Using Create ML](#Flow-of-Model-When-Using-Create-ML)
 - [Example Projects Using Various Machine Learning Models](#Example-Projects-Using-Various-Machine-Learning-Models)
   - [MobileNet](#MobileNet)
-  - [Pose Estimation](#Pose Estimation)
-    - Body Pose Estimation
-    - Fingertip Estimation
-  - Object Detection
-  - Text Detection & Recognition
-  - A Simple Classification Using Create ML and Core ML
-- Performance
-  - 📏Measure module
-  - Test
-    - Unit Test
-    - Bunch Test (planning...)
-  - Implements
-- Author
-- See also
+  - [Pose Estimation](#Pose-Estimation)
+    - [Body Pose Estimation](#Body-Pose-Estimation)
+    - [Fingertip Estimation](#Fingertip-Estimation)
+  - [Object Detection](#Object-Detection)
+  - [Text Detection & Recognition](#text-detection--recognition)
+  - [A Simple Classification Using Create ML and Core ML](#A-Simple-Classification-Using-Create-ML-and-Core-ML)
+- [Performance](#Performance)
+  - [📏Measure module](#measure-module)
+  - [Test](#test)
+    - [Unit Test](#Unit-Test)
+    - [Bunch Test (planning...)](#bunch-test-planning)
+  - [Implements](#Implements)
+- [Author](#Author)
+- [See also](#See-also)
 
 ## Machine Learning Framework for iOS
 

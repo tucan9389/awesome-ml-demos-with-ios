@@ -1,8 +1,28 @@
-![iOS-Projects-with-ML-Models-Logo](Resource/iOS-Projects-with-ML-Models-Logo@3x.png)
+![awesome-ml-demos-with-ios-logo](Resource/awesome-ml-demos-with-ios-logo.jpg)<br>
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/motlabs/awesome-ml-demos-with-ios) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-TensorFlow에서 만든 머신러닝 모델과 내장된 모델을 iOS에서 사용해봅니다.
+# Awesome Machine Learning DEMOs with iOS
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+Core ML과 ML Kit(TensorFlow Lite)를 이용해 iOS에서 머신러닝을 돌려보는 예제 모음 저장소입니다.
+
+## 목차
+- [iOS를 위한 ML 프레임워크](#iOS를-위한-ML-프레임워크)
+  - [Core ML을 이용할 때의 모델 흐름도](#Flow-of-Model-When-Using-Core-ML)
+- [모델 실행 예제](#Example-Projects-Using-Various-Machine-Learning-Models)
+  - [MobileNet](#MobileNet)
+  - [Pose Estimation](#Pose-Estimation)
+    - [Body Pose Estimation](#Body-Pose-Estimation)
+    - [Fingertip Estimation](#Fingertip-Estimation)
+  - [Object Detection](#Object-Detection)
+  - [Text Detection & Recognition](#text-detection--recognition)
+  - [Create ML과 Core ML을 사용한 간단한 분류](#A-Simple-Classification-Using-Create-ML-and-Core-ML)
+- [⏰성능](#Performance)
+  - [📏Measure 모듈](#measure-module)
+  - [테스트](#test)
+    - [단위 테스트](#Unit-Test)
+    - [묶음 테스트(준비중...)](#bunch-test-planning)
+- [Author](#Author)
+- [See also](#See-also)
 
 ## 들어가며
 
