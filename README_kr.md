@@ -48,7 +48,7 @@ Core ML과 ML Kit(TensorFlow Lite)를 이용해 iOS에서 머신러닝을 돌려
 
 ## 모델 실행 예제
 
-### 1. MobileNet
+### MobileNet
 
 MobileNet 모델을 실행시켜본 예제입니다.
 
@@ -59,7 +59,7 @@ MobileNet 모델을 실행시켜본 예제입니다.
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
 
-### 2. Pose Estimation
+### Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
    1. PoseEstimationForMobile에서 제공하는 Core ML 모델 준비
@@ -83,7 +83,7 @@ MobileNet 모델을 실행시켜본 예제입니다.
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)(준비중...)<br>
   : 커스텀 Estimation 데이터셋을 준비하기위한 어노테이션 툴
 
-#### 2.1 Pose Estimation
+#### Body Pose Estimation
 
 |                    [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)                     |                     [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)                     |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -93,13 +93,13 @@ MobileNet 모델을 실행시켜본 예제입니다.
 | ------------------------------------------------------------ |
 | ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
 
-#### 2.2 Fingertip Estimation
+#### Fingertip Estimation
 
 | [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)                                   | KeypointAnnotation(preparing...)                             |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
-### 3. Object Detection
+### Object Detection
 
 1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: 90개의 물체를 인지(물체의 위치와 크기를 찾고 카테고리를 식별합니다).
 
@@ -107,7 +107,7 @@ MobileNet 모델을 실행시켜본 예제입니다.
 | ------------------------------------------------------------ |
 | ![SSDMobileNet-CoreML_DEMO001](Resource/SSDMobileNet-CoreML_DEMO001.gif) |
 
-### 4. TextDetection & Recognition
+### TextDetection & Recognition
 
 1. [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br>: Vision의 내장된 모델을 사용하여 텍스트를 찾기.
 2. [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br>: Firebase의 내장된 모델을 사용하여 텍스트를 인식.
@@ -118,7 +118,7 @@ MobileNet 모델을 실행시켜본 예제입니다.
    | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
    | ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO002](Resource/TextRecognition-MLKit_DEMO002.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif) |
 
-### 5. Create ML과 Core ML을 사용한 간단한 분류
+### Create ML과 Core ML을 사용한 간단한 분류
 
 1. [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML)
 
