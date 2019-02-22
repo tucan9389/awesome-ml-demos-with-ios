@@ -1,10 +1,32 @@
-![iOS-Projects-with-ML-Models-Logo](Resource/iOS-Projects-with-ML-Models-Logo@3x.png)
+![awesome-ml-demos-with-ios-logo](Resource/awesome-ml-demos-with-ios-logo.jpg)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/motlabs/awesome-ml-demos-with-ios) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+# Awesome Machine Learning DEMOs with iOS
 
 We tackle the challenge of using machine learning models on iOS via Core ML and ML Kit (TensorFlow Lite).
 
 [한국어 README](https://github.com/motlabs/iOS-Proejcts-with-ML-Models/blob/master/README_kr.md)
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+## Contents
+- [Machine Learning Framework for iOS](#machine-learning-framework-for-ios)
+  - [Flow of Model When Using Core ML](#Flow-of-Model-When-Using-Core-ML)
+  - [Flow of Model When Using Create ML](#Flow-of-Model-When-Using-Create-ML)
+- [Example Projects Using Various Machine Learning Models](#Example-Projects-Using-Various-Machine-Learning-Models)
+  - [MobileNet](#MobileNet)
+  - [Pose Estimation](#Pose Estimation)
+    - Body Pose Estimation
+    - Fingertip Estimation
+  - Object Detection
+  - Text Detection & Recognition
+  - A Simple Classification Using Create ML and Core ML
+- Performance
+  - 📏Measure module
+  - Test
+    - Unit Test
+    - Bunch Test (planning...)
+  - Implements
+- Author
+- See also
 
 ## Machine Learning Framework for iOS
 
@@ -46,7 +68,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
   - Speech recognition
   - TTS
 
-### 1. MobileNet
+### MobileNet
 
 Example project using MobileNet model.
 
@@ -57,7 +79,7 @@ Example project using MobileNet model.
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
 
-### 2. Pose Estimation
+### Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
 2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)
@@ -67,13 +89,7 @@ Example project using MobileNet model.
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)<br>
   : Annotation tool for own custom estimation dataset
 
-#### Modules Used
-
-- `Measure.swift`
-- `PoseView.swift`
-- `HeatmapView.swift`
-
-#### 2.1 Pose Estimation
+#### Body Pose Estimation
 
 | [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -83,13 +99,13 @@ Example project using MobileNet model.
 | ------------------------------------------------------------ |
 | ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
 
-#### 2.2 Fingertip Estimation
+#### Fingertip Estimation
 
 | [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) | [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
-### 3. Object Detection
+### Object Detection
 
 1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: Detect 90 objects(find the object box of position and size and identify the cate`gory).
 
@@ -97,7 +113,7 @@ Example project using MobileNet model.
 | ------------------------------------------------------------ |
 | ![SSDMobileNet-CoreML_DEMO001](Resource/SSDMobileNet-CoreML_DEMO001.gif) |
 
-### 4. Text Detection & Recognition
+### Text Detection & Recognition
 
 1. [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br>
    : Detect character using Vision built-in model.
@@ -109,7 +125,7 @@ Example project using MobileNet model.
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO002](Resource/TextRecognition-MLKit_DEMO002.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif) |
 
-### 5. A Simple Classification Using Create ML and Core ML
+### A Simple Classification Using Create ML and Core ML
 
 1. [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML)
 
