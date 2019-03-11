@@ -115,7 +115,7 @@ Example project using MobileNet model.
 
 | [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML) |
 | ------------------------------------------------------------ |
-| ![SSDMobileNet-CoreML_DEMO001](Resource/SSDMobileNet-CoreML_DEMO001.gif) |
+| ![SSDMobileNetV2-DEMO](Resource/SSDMobileNetV2-DEMO.gif) |
 
 ### Text Detection & Recognition
 
@@ -149,7 +149,7 @@ Example project using MobileNet model.
 |              MobileNet-MLKit |        120         |        130         |    6    |
 |        PoseEstimation-CoreML |         51         |         65         |   14    |
 |         PoseEstimation-MLKit |        200         |        217         |    3    |
-|          SSDMobileNet-CoreML |         72         |        180         |    5    |
+|          SSDMobileNet-CoreML |  100 ~ 120         |   110 ~ 130       |    5    |
 |         TextDetection-CoreML |         12         |         13         | 30(max) |
 |        TextRecognition-MLKit |       35~200       |       40~200       |  5~20   |
 | WordRecognition-CoreML-MLKit |         23         |         30         |   14    |
