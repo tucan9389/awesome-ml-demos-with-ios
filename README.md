@@ -78,15 +78,15 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 |  | Coer ML | ML Kit |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-<td colspan=3>Object<br>Classification
+| Object<br>Classification | | |
 | MobileNet | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
 |           | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center"><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
-<td colspan=3>Pose Estimation
+| Pose Estimation | | |
 | Body Pose<br>Estimation | [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) |
 |           | <p align="center"><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | <p align="center"><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> |
 | Pointing Pose<br>Estimation | [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) |  |
 | | <p align="center"><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | |
-<td colspan=3>Object Detection
+| Object Detection | | |
 | SSDMobileNet | [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML) | |
 |           | <p align="center"><img src="Resource/SSDMobileNetV2-DEMO.gif" width="200"/></p> | |
 
