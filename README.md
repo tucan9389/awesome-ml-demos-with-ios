@@ -79,12 +79,12 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | Core ML | ML Kit |
 | ------- | ------ |
 | **Object<br>Classification** | |
-| <p align="center">[MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)<img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center">[MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)<img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
+| <p align="center">[MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)<br><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center">[MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)<br><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
 | **Pose Estimation** | |
-| <p align="center">[PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)<img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | <p align="center">[PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)<img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> |
-| <p align="center">[FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)<img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | |
+| <p align="center">[PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)<br><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | <p align="center">[PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)<br><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> |
+| <p align="center">[FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)<br><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | |
 | **Object Detection** | |
-| <p align="center">[SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<img src="Resource/SSDMobileNetV2-DEMO.gif" width="200"/></p> | |
+| <p align="center">[SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br><img src="Resource/SSDMobileNetV2-DEMO.gif" width="200"/></p> | |
 | **Text Detection &**<br>**Recognition** | |
 
 
