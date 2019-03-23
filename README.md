@@ -76,37 +76,24 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 ### Image Classification
 
-| Object<br>Classification | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
+|  <td colspan=2>DEMO
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+<td colspan=3>Object<br>Classification
+| MobileNet | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
 |           | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center"><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
-| Pose Estimation |
+<td colspan=3>Pose Estimation
 | Body Pose<br>Estimation | [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) |
 |           | <p align="center"><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | <p align="center"><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> |
 | Pointing Pose<br>Estimation | [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) |  |
 | | <p align="center"><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | |
+<td colspan=3>Object Detection
+| SSDMobileNet | [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML) | |
+|           | <p align="center"><img src="Resource/SSDMobileNetV2-DEMO.gif" width="200"/></p> | |
 
-
-
-4. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
 
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)<br>
   : Annotation tool for own custom estimation dataset
 
-#### Body Pose Estimation
-
-| [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![180705-poseestimation-demo.gif](Resource/180801-poseestimation-demo.gif) | ![PoseEstimation-MLKit-hourglass](Resource/PoseEstimation-MLKit-hourglass.gif) |
-
-| [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios) |
-| ------------------------------------------------------------ |
-| ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
-
-#### Fingertip Estimation
-
-| [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) | [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
 
 ### Object Detection
 
