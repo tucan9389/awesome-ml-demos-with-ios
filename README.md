@@ -88,7 +88,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | <p align="center">[PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)<br><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | <p align="center">[PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)<br><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> |
 | <p align="center">[FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)<br><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | |
 
-### Object Detection
+### Object Detection & Recognition
 
 | Core ML | ML Kit |
 | ------- | ------ |
@@ -96,22 +96,6 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | **Text Detection &**<br>**Recognition** | |
 | <p align="center">[TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | <p align="center">[TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br><img src="Resource/TextRecognition-MLKit_DEMO002.gif" width="200"/></p> |
 
-
-- [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)<br>
-  : Annotation tool for own custom estimation dataset
-
-
-### Object Detection
-
-1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>
-   : Detect 90 objects(find the object box of position and size and identify the category).
-
-### Text Detection & Recognition
-
-1. [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br>
-   : Detect character using Vision built-in model.
-2. [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br>
-   : Recognize text using Firebase built-in model.
 
 
 ### A Simple Classification Using Create ML and Core ML
@@ -128,6 +112,12 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | ---- | ---- | ---- |
 | [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios) | <p align="center"><img src="Resource/dont-be-turtle_demo_004.gif" width="200"/></p> | - |
 | [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...) | <p align="center"><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | Detect character, find a word what I point and then recognize the word using Core ML and ML Kit. |
+
+### Annotation Tool
+
+| Name | DEMO | Note |
+| ---- | ---- | ---- |
+| [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation) | <p align="center"><img src="Resource/annotation_ios_app_demo001.gif" width="200"/></p> | Annotation tool for own custom estimation dataset |
 
 
 ## Performance
