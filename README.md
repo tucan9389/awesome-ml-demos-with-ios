@@ -19,7 +19,9 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
   - [Image Classification](#Image-Classification)
   - [Pose Estimation](#Pose-Estimation)
   - [Object Detection & Recognition](#Object-Detection--Recognition)
-  - [Create ML Projects](#Create-ML-Projects)
+- [Application Projects](#Application-Projects)
+  - [Annotation Tool](#Annotation-Tool)
+- [Create ML Projects](#Create-ML-Projects)
 - [Performance](#Performance)
   - [📏Measure module](#measure-module)
   - [Test](#test)
@@ -33,8 +35,9 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
 
 - [Core ML](https://developer.apple.com/documentation/coreml)
 - [ML Kit](https://developers.google.com/ml-kit/)
-- etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), [Tensorflow Mobile](https://www.tensorflow.org/mobile/))
 - [fritz](https://www.fritz.ai/)
+- etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), ~~[Tensorflow Mobile](https://www.tensorflow.org/mobile/)~~`DEPRECATED`)
+
 
 ### Flow of Model When Using Core ML
 
