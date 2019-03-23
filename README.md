@@ -52,7 +52,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 ![playground-createml-validation-001](Resource/flow_of_model_when_using_createml.png)
 
-## Example Projects Using Various Machine Learning Models
+## Baseline Projects
 
 #### DONE
 
@@ -79,14 +79,12 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | MobileNet | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |           | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center"><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
-|  dd         <td colspan=2>asdf
-
-| dddd | abcd | aaaa |
-| ---- | ---- | ---- |
-<td rowspan=2> hihi | hihihi | hihihi |
-| aaaaa | aaaaa
 
 ### Pose Estimation
+
+| Hourglass | [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) |
+| --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|           | <p align="center"><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | <p align="center"><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> |
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
 2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)
@@ -114,7 +112,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 ### Object Detection
 
-1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: Detect 90 objects(find the object box of position and size and identify the cate`gory).
+1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: Detect 90 objects(find the object box of position and size and identify the category).
 
 | [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML) |
 | ------------------------------------------------------------ |
@@ -139,6 +137,14 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | Create ML                                                    | Core ML                            |
 | ------------------------------------------------------------ | ---------------------------------- |
 | ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) |
+
+## Application Projects
+
+| Name | DEMO | Note |
+| ---- | ---- | ---- |
+| [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios) | <p align="center"><img src="Resource/dont-be-turtle_demo_004.gif" width="200"/></p> | - |
+| [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...) | <p align="center"><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | Detect character, find a word what I point and then recognize the word using Core ML and ML Kit. |
+
 
 ## Performance
 
