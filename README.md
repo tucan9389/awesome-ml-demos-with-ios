@@ -15,14 +15,13 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
 - [Machine Learning Framework for iOS](#machine-learning-framework-for-ios)
   - [Flow of Model When Using Core ML](#Flow-of-Model-When-Using-Core-ML)
   - [Flow of Model When Using Create ML](#Flow-of-Model-When-Using-Create-ML)
-- [Example Projects Using Various Machine Learning Models](#Example-Projects-Using-Various-Machine-Learning-Models)
-  - [MobileNet](#MobileNet)
+- [Baseline Projects](#Baseline-Projects)
+  - [Image Classification](#Image-Classification)
   - [Pose Estimation](#Pose-Estimation)
-    - [Body Pose Estimation](#Body-Pose-Estimation)
-    - [Fingertip Estimation](#Fingertip-Estimation)
-  - [Object Detection](#Object-Detection)
-  - [Text Detection & Recognition](#text-detection--recognition)
-  - [A Simple Classification Using Create ML and Core ML](#A-Simple-Classification-Using-Create-ML-and-Core-ML)
+  - [Object Detection & Recognition](#Object-Detection--Recognition)
+- [Application Projects](#Application-Projects)
+  - [Annotation Tool](#Annotation-Tool)
+- [Create ML Projects](#Create-ML-Projects)
 - [Performance](#Performance)
   - [📏Measure module](#measure-module)
   - [Test](#test)
@@ -36,7 +35,9 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
 
 - [Core ML](https://developer.apple.com/documentation/coreml)
 - [ML Kit](https://developers.google.com/ml-kit/)
-- etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), [Tensorflow Mobile](https://www.tensorflow.org/mobile/))
+- [fritz](https://www.fritz.ai/)
+- etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), ~~[Tensorflow Mobile](https://www.tensorflow.org/mobile/)~~`DEPRECATED`)
+
 
 ### Flow of Model When Using Core ML
 
@@ -52,7 +53,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 ![playground-createml-validation-001](Resource/flow_of_model_when_using_createml.png)
 
-## Example Projects Using Various Machine Learning Models
+## Baseline Projects
 
 #### DONE
 
@@ -60,10 +61,11 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 - Using built-in on-device model with ML Kit
 - Using custom model for Vision with Core ML and ML Kit
+- Object Detection with Core ML
 
 #### TODO
 
-- Object Detection with Core ML and ML Kit
+- Object Detection with ML Kit
 - Using built-in cloud model on ML Kit
   - Landmark recognition
 - Using custom model for NLP with Core ML and ML Kit
@@ -72,70 +74,49 @@ Once the compatible model is prepared, you can run the inference using the ML fr
   - Speech recognition
   - TTS
 
-### MobileNet
 
-Example project using MobileNet model.
 
-1. [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)
-2. [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)
+### Image Classification
 
-| [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
+| Name | DEMO | Note |
+| ---- | ---- | ---- |
+| [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | - |
+| [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) | <p align="center"><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> | - |
 
 ### Pose Estimation
 
-1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)
-3. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
-4. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
+| Name | DEMO | Note |
+| ---- | ---- | ---- |
+| [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | <p align="center"><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | - |
+| [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) | <p align="center"><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> | - |
+| [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) | <p align="center"><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | - |
 
-- [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)<br>
-  : Annotation tool for own custom estimation dataset
+### Object Detection & Recognition
 
-#### Body Pose Estimation
+| Name | DEMO | Note |
+| ---- | ---- | ---- |
+| [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML) | <p align="center"><img src="Resource/SSDMobileNetV2-DEMO.gif" width="200"/></p> | - |
+| [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | <p align="center"><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | - |
+| [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | <p align="center"><img src="Resource/TextRecognition-MLKit_DEMO002.gif" width="200"/></p> | - |
 
-| [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![180705-poseestimation-demo.gif](Resource/180801-poseestimation-demo.gif) | ![PoseEstimation-MLKit-hourglass](Resource/PoseEstimation-MLKit-hourglass.gif) |
+## Application Projects
 
-| [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios) |
-| ------------------------------------------------------------ |
-| ![dont-be-turtle_demo](Resource/dont-be-turtle_demo_004.gif) |
+| Name | DEMO | Note |
+| ---- | ---- | ---- |
+| [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios) | <p align="center"><img src="Resource/dont-be-turtle_demo_004.gif" width="200"/></p> | - |
+| [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...) | <p align="center"><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | Detect character, find a word what I point and then recognize the word using Core ML and ML Kit. |
 
-#### Fingertip Estimation
+### Annotation Tool
 
-| [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) | [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![fingertip_estimation_demo003](Resource/fingertip_estimation_demo003.gif) | ![annotation_ios_app_demo001](Resource/annotation_ios_app_demo001.gif) |
+| Name | DEMO | Note |
+| ---- | ---- | ---- |
+| [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation) | <p align="center"><img src="Resource/annotation_ios_app_demo001.gif" width="200"/></p> | Annotation tool for own custom estimation dataset |
 
-### Object Detection
+## Create ML Projects
 
-1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: Detect 90 objects(find the object box of position and size and identify the cate`gory).
-
-| [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML) |
-| ------------------------------------------------------------ |
-| ![SSDMobileNetV2-DEMO](Resource/SSDMobileNetV2-DEMO.gif) |
-
-### Text Detection & Recognition
-
-1. [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br>
-   : Detect character using Vision built-in model.
-2. [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br>: Recognize text using Firebase built-in model.
-3. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
-   :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
-
-| [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO002](Resource/TextRecognition-MLKit_DEMO002.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif) |
-
-### A Simple Classification Using Create ML and Core ML
-
-1. [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML)
-
-| Create ML                                                    | Core ML                            |
-| ------------------------------------------------------------ | ---------------------------------- |
-| ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) |
+| Name | Create ML DEMO | Core ML DEMO | Note |
+| ------ | ------------------------------------------------------------ | ---------------------------------- | ------ |
+| [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML) | ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) | A Simple Classification Using Create ML and Core ML |
 
 ## Performance
 
@@ -143,13 +124,13 @@ Example project using MobileNet model.
 >
 > WordRecognition-CoreML-MLKit: Text Detection(Core ML built-in model) + Text Recognition(ML Kit built-in model)
 
-|                              | Inference Time(ms) | Execution Time(ms) |   FPS   |
+|              (with iPhone X) | Inference Time(ms) | Execution Time(ms) |   FPS   |
 | ---------------------------: | :----------------: | :----------------: | :-----: |
 |             MobileNet-CoreML |         40         |         40         |   23    |
 |              MobileNet-MLKit |        120         |        130         |    6    |
 |        PoseEstimation-CoreML |         51         |         65         |   14    |
 |         PoseEstimation-MLKit |        200         |        217         |    3    |
-|          SSDMobileNet-CoreML |  100 ~ 120         |   110 ~ 130       |    5    |
+|          SSDMobileNet-CoreML |  100 ~ 120         |    110 ~ 130       |    5    |
 |         TextDetection-CoreML |         12         |         13         | 30(max) |
 |        TextRecognition-MLKit |       35~200       |       40~200       |  5~20   |
 | WordRecognition-CoreML-MLKit |         23         |         30         |   14    |
@@ -158,7 +139,7 @@ Example project using MobileNet model.
 
 You can see the measured latency time for inference or execution and FPS on the top of the screen.
 
-![measure_ui](Resource/measure_ui.jpeg)
+<img src="Resource/measure_ui.jpeg" width="320"/>
 
 ### Test
 
@@ -203,11 +184,11 @@ You can see the measured latency time for inference or execution and FPS on the 
 
 - [Core ML | Apple Developer Documentation](https://developer.apple.com/documentation/coreml)
 - [Machine Learning - Apple Developer](https://developer.apple.com/machine-learning/)
-- WWDC17 - Core ML 발표자료
+- WWDC17 - Core ML
   - [WWDC17 703 Session - Introducing Core ML](https://developer.apple.com/videos/play/wwdc2017/703/)
   - [WWDC17 710 Session - Core ML in depth](https://developer.apple.com/videos/play/wwdc2017/710/)
   - [WWDC17 506 Session - Vision Framework: Building on Core ML](https://developer.apple.com/videos/play/wwdc2017/506)
-- WWDC18 - Core ML 2 발표자료
+- WWDC18 - Core ML 2
   - [WWDC18 708 Session - What’s New in Core ML, Part 1](https://developer.apple.com/videos/play/wwdc2018/708/)
   - [WWDC18 709 Session - What’s New in Core ML, Part 2](https://developer.apple.com/videos/play/wwdc2018/709/)
   - [WWDC18 717 Session - Vision with Core ML](https://developer.apple.com/videos/play/wwdc2018/717/)
