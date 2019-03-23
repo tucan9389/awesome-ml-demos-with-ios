@@ -142,7 +142,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 You can see the measured latency time for inference or execution and FPS on the top of the screen.
 
-![measure_ui](Resource/measure_ui.jpeg)
+<img src="Resource/measure_ui.jpeg" width="280"/>
 
 ### Test
 
