@@ -80,10 +80,18 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | ------- | ------ |
 | **Object<br>Classification** | |
 | <p align="center">[MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)<br><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center">[MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)<br><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
-| **Pose Estimation** | |
+
+### Pose Estimation
+
+| Core ML | ML Kit |
+| ------- | ------ |
 | <p align="center">[PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)<br><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | <p align="center">[PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)<br><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> |
 | <p align="center">[FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)<br><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | |
-| **Object Detection** | |
+
+### Object Detection
+
+| Core ML | ML Kit |
+| ------- | ------ |
 | <p align="center">[SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br><img src="Resource/SSDMobileNetV2-DEMO.gif" width="200"/></p> | |
 | **Text Detection &**<br>**Recognition** | |
 | <p align="center">[TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | <p align="center">[TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br><img src="Resource/TextRecognition-MLKit_DEMO002.gif" width="200"/></p> |
