@@ -81,6 +81,11 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 |           | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center"><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
 |           <td colspan=2>asdf
 
+| dddd | abcd | aaaa |
+| ---- | ---- | ---- |
+<td rowspan=2> hihi | hihihi | hihihi|
+aaaaa | aaaaa
+
 ### Pose Estimation
 
 1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
