@@ -112,7 +112,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 ## Create ML Projects
 
 | Name | Create ML DEMO | Core ML DEMO | Note |
-| ------ | ------------------------------------------------------------ | ---------------------------------- |
+| ------ | ------------------------------------------------------------ | ---------------------------------- | ------ |
 | [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML) | ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) | A Simple Classification Using Create ML and Core ML |
 
 ## Performance
