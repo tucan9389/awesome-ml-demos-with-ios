@@ -77,7 +77,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 ### Image Classification
 
 | Core ML | ML Kit |
-| --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ------- | ------ |
 | **Object<br>Classification** | |
 | <p align="center">[MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)<img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center">[MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)<img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
 | **Pose Estimation** | |
