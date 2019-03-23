@@ -76,7 +76,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 ### Image Classification
 
-| MobileNet | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
+| <td rowspan=2>MobileNet | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |           | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center"><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
 
