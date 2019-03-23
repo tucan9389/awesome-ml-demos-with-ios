@@ -79,8 +79,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | MobileNet | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |           | <p align="center"><br/><img src="https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true" width="120"/>
-</p> | <p align="center"><br/><img src="https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true" width="120"/>
-</p> |
+</p> | <p align="center"><br/><img src="https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true" width="120"/></p> |
 |           |                                                              |                                                              |
 
 ### Pose Estimation
