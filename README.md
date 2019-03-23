@@ -104,7 +104,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | Name | DEMO | Note |
 | ---- | ---- | ---- |
 | [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios) | <p align="center"><img src="Resource/dont-be-turtle_demo_004.gif" width="200"/></p> | - |
-| [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...) | <p align="center"><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | Detect character, find a word what I point and then recognize the word using Core ML and ML Kit. |
+| [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...) | <p align="center"><img src="Resource/recognition_a_word_demo002.gif" width="200"/></p> | Detect character, find a word what I point and then recognize the word using Core ML and ML Kit. |
 
 ### Annotation Tool
 
