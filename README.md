@@ -72,16 +72,16 @@ Once the compatible model is prepared, you can run the inference using the ML fr
   - Speech recognition
   - TTS
 
-### MobileNet
 
-Example project using MobileNet model.
 
-1. [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)
-2. [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)
+### Image Classification
 
-| [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![DEMO-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true) | ![DEMO-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true) |
+| MobileNet | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
+| --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|           | <p align="center"><br/><img src="https://github.com/tucan9389/MobileNetApp-CoreML/blob/master/resource/MobileNet-CoreML-DEMO.gif?raw=true" width="120"/>
+</p> | <p align="center"><br/><img src="https://github.com/tucan9389/MobileNetApp-MLKit/blob/master/resource/MobileNet-MLKit-DEMO.gif?raw=true" width="120"/>
+</p> |
+|           |                                                              |                                                              |
 
 ### Pose Estimation
 
