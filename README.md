@@ -86,6 +86,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | **Object Detection** | |
 | <p align="center">[SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br><img src="Resource/SSDMobileNetV2-DEMO.gif" width="200"/></p> | |
 | **Text Detection &**<br>**Recognition** | |
+| <p align="center">[TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | <p align="center">[TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br><img src="Resource/TextRecognition-MLKit_DEMO002.gif" width="200"/></p> |
 
 
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)<br>
@@ -94,22 +95,16 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 ### Object Detection
 
-1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>: Detect 90 objects(find the object box of position and size and identify the category).
-
-| [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML) |
-| ------------------------------------------------------------ |
-| ![SSDMobileNetV2-DEMO](Resource/SSDMobileNetV2-DEMO.gif) |
+1. [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML)<br>
+   : Detect 90 objects(find the object box of position and size and identify the category).
 
 ### Text Detection & Recognition
 
 1. [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br>
    : Detect character using Vision built-in model.
-2. [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br>: Recognize text using Firebase built-in model.
+2. [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br>
+   : Recognize text using Firebase built-in model.
 
-
-| [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO002](Resource/TextRecognition-MLKit_DEMO002.gif) |
 
 ### A Simple Classification Using Create ML and Core ML
 
