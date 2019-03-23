@@ -76,19 +76,17 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 ### Image Classification
 
-| MobileNet | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
+| Object<br>Classification | [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML) | [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit) |
 | --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |           | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | <p align="center"><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> |
-
-### Pose Estimation
-
-| Hourglass | [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) |
-| --------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Pose Estimation |
+| Body Pose<br>Estimation | [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) |
 |           | <p align="center"><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | <p align="center"><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> |
+| Pointing Pose<br>Estimation | [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) |  |
+| | <p align="center"><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | |
 
-1. [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML)
-2. [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit)
-3. [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios)
+
+
 4. [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML)
 
 - [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation)<br>
@@ -123,12 +121,11 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 1. [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML)<br>
    : Detect character using Vision built-in model.
 2. [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit)<br>: Recognize text using Firebase built-in model.
-3. [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...)<br>
-   :  Detect character, find a word what I point and then recognize the word using Core ML and ML Kit.
 
-| [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO002](Resource/TextRecognition-MLKit_DEMO002.gif) | ![recognition a word demo](Resource/recognition_a_word_demo002.gif) |
+
+| [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![TextDetection-CoreML_DEMO001](Resource/TextDetection-CoreML_DEMO001.gif) | ![TextRecognition-MLKit_DEMO002](Resource/TextRecognition-MLKit_DEMO002.gif) |
 
 ### A Simple Classification Using Create ML and Core ML
 
