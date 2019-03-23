@@ -124,13 +124,13 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 >
 > WordRecognition-CoreML-MLKit: Text Detection(Core ML built-in model) + Text Recognition(ML Kit built-in model)
 
-|                              | Inference Time(ms) | Execution Time(ms) |   FPS   |
+|              (with iPhone X) | Inference Time(ms) | Execution Time(ms) |   FPS   |
 | ---------------------------: | :----------------: | :----------------: | :-----: |
 |             MobileNet-CoreML |         40         |         40         |   23    |
 |              MobileNet-MLKit |        120         |        130         |    6    |
 |        PoseEstimation-CoreML |         51         |         65         |   14    |
 |         PoseEstimation-MLKit |        200         |        217         |    3    |
-|          SSDMobileNet-CoreML |  100 ~ 120         |   110 ~ 130       |    5    |
+|          SSDMobileNet-CoreML |  100 ~ 120         |    110 ~ 130       |    5    |
 |         TextDetection-CoreML |         12         |         13         | 30(max) |
 |        TextRecognition-MLKit |       35~200       |       40~200       |  5~20   |
 | WordRecognition-CoreML-MLKit |         23         |         30         |   14    |
@@ -184,11 +184,11 @@ You can see the measured latency time for inference or execution and FPS on the 
 
 - [Core ML | Apple Developer Documentation](https://developer.apple.com/documentation/coreml)
 - [Machine Learning - Apple Developer](https://developer.apple.com/machine-learning/)
-- WWDC17 - Core ML 발표자료
+- WWDC17 - Core ML
   - [WWDC17 703 Session - Introducing Core ML](https://developer.apple.com/videos/play/wwdc2017/703/)
   - [WWDC17 710 Session - Core ML in depth](https://developer.apple.com/videos/play/wwdc2017/710/)
   - [WWDC17 506 Session - Vision Framework: Building on Core ML](https://developer.apple.com/videos/play/wwdc2017/506)
-- WWDC18 - Core ML 2 발표자료
+- WWDC18 - Core ML 2
   - [WWDC18 708 Session - What’s New in Core ML, Part 1](https://developer.apple.com/videos/play/wwdc2018/708/)
   - [WWDC18 709 Session - What’s New in Core ML, Part 2](https://developer.apple.com/videos/play/wwdc2018/709/)
   - [WWDC18 717 Session - Vision with Core ML](https://developer.apple.com/videos/play/wwdc2018/717/)
