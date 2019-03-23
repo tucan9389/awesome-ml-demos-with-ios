@@ -15,14 +15,11 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
 - [Machine Learning Framework for iOS](#machine-learning-framework-for-ios)
   - [Flow of Model When Using Core ML](#Flow-of-Model-When-Using-Core-ML)
   - [Flow of Model When Using Create ML](#Flow-of-Model-When-Using-Create-ML)
-- [Example Projects Using Various Machine Learning Models](#Example-Projects-Using-Various-Machine-Learning-Models)
-  - [MobileNet](#MobileNet)
+- [Baseline Projects](#Baseline-Projects)
+  - [Image Classification](#Image-Classification)
   - [Pose Estimation](#Pose-Estimation)
-    - [Body Pose Estimation](#Body-Pose-Estimation)
-    - [Fingertip Estimation](#Fingertip-Estimation)
-  - [Object Detection](#Object-Detection)
-  - [Text Detection & Recognition](#text-detection--recognition)
-  - [A Simple Classification Using Create ML and Core ML](#A-Simple-Classification-Using-Create-ML-and-Core-ML)
+  - [Object Detection & Recognition](#Object-Detection--Recognition)
+  - [Create ML Projects](#Create-ML-Projects)
 - [Performance](#Performance)
   - [📏Measure module](#measure-module)
   - [Test](#test)
@@ -37,6 +34,7 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
 - [Core ML](https://developer.apple.com/documentation/coreml)
 - [ML Kit](https://developers.google.com/ml-kit/)
 - etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), [Tensorflow Mobile](https://www.tensorflow.org/mobile/))
+- [fritz](https://www.fritz.ai/)
 
 ### Flow of Model When Using Core ML
 
@@ -60,10 +58,11 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 - Using built-in on-device model with ML Kit
 - Using custom model for Vision with Core ML and ML Kit
+- Object Detection with Core ML
 
 #### TODO
 
-- Object Detection with Core ML and ML Kit
+- Object Detection with ML Kit
 - Using built-in cloud model on ML Kit
   - Landmark recognition
 - Using custom model for NLP with Core ML and ML Kit
@@ -97,16 +96,6 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | <p align="center"><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | - |
 | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | <p align="center"><img src="Resource/TextRecognition-MLKit_DEMO002.gif" width="200"/></p> | - |
 
-
-
-### A Simple Classification Using Create ML and Core ML
-
-1. [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML)
-
-| Create ML                                                    | Core ML                            |
-| ------------------------------------------------------------ | ---------------------------------- |
-| ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) |
-
 ## Application Projects
 
 | Name | DEMO | Note |
@@ -120,6 +109,11 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | ---- | ---- | ---- |
 | [KeypointAnnotation](https://github.com/tucan9389/KeypointAnnotation) | <p align="center"><img src="Resource/annotation_ios_app_demo001.gif" width="200"/></p> | Annotation tool for own custom estimation dataset |
 
+## Create ML Projects
+
+| Name | Create ML DEMO | Core ML DEMO | Note |
+| ------ | ------------------------------------------------------------ | ---------------------------------- |
+| [SimpleClassification-CreateML-CoreML](https://github.com/tucan9389/SimpleClassification-CreateML-CoreML) | ![IMG_0436](Resource/playground-createml-validation-001.png) | ![IMG_0436](Resource/IMG_0436.PNG) | A Simple Classification Using Create ML and Core ML |
 
 ## Performance
 
@@ -142,7 +136,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 You can see the measured latency time for inference or execution and FPS on the top of the screen.
 
-<img src="Resource/measure_ui.jpeg" width="280"/>
+<img src="Resource/measure_ui.jpeg" width="320"/>
 
 ### Test
 
