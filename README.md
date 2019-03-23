@@ -83,7 +83,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 | dddd | abcd | aaaa |
 | ---- | ---- | ---- |
-<td rowspan=2> hihi | hihihi | hihihi|
+<td rowspan=2> hihi | hihihi | hihihi |
 | aaaaa | aaaaa
 
 ### Pose Estimation
