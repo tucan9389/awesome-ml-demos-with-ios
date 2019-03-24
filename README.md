@@ -174,12 +174,6 @@ You can see the measured latency time for inference or execution and FPS on the 
 |  TextDetection-CoreML |    O     |     X     |     X      |
 | TextRecognition-MLKit |    O     |     X     |     X      |
 
-
-
-## Author
-
-- [tucan9389](https://github.com/tucan9389)
-
 ## See also
 
 - [Core ML | Apple Developer Documentation](https://developer.apple.com/documentation/coreml)
