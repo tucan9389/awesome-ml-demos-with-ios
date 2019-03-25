@@ -4,9 +4,9 @@
 ### 🖐 Make issue
 
 1. Prepare demo gif and link for your mobile machine learning project.
-> I recommand width of gif is 320.<br>If you want to know how to generate gif demo, plz check [this tutorial](#How-to-generate-gif).
-2. Make a issue before PR
-> Issue guidelines will be prepared. But the guidelines aren't prepared yet.
+> I recommend the width of gif is 320.<br>If you want to know how to generate gif demo, check [this tutorial](#How-to-generate-gif).
+2. Make an issue before PR
+> I will prepare the issue guidelines, but not yet.
 
 ### 👍 Make PR
 
@@ -17,11 +17,11 @@
 ## Tips
 ### How to generate gif
 
-1. Record DEMO video on iOS([How to record the screen on your iPhone, iPad, or iPod touch](https://support.apple.com/en-us/HT207935)).
+1. Record DEMO video on iOS.<br>→ [How to record the screen on your iPhone, iPad, or iPod touch](https://support.apple.com/en-us/HT207935)
 2. Export the video to mac.
 3. Convert the video to gif using following script.
   1. Install [FFMPEG](https://ffmpeg.org) on your mac.<br>
-  Run following command on Terminal app.<br>
+  → Run the following command on Terminal app.<br>
   `$ brew install ffmpeg`
   2. Download the script([`gifconverter.sh`](https://gist.github.com/tucan9389/f0a20ce94e84e42e11d05b55673aacd1)).
 
@@ -45,3 +45,24 @@
   3. Run the script with the demo video path.<br>
   `$ sh gifconverter.sh ~/Desktop/DEMO.mp4`
   4. You can find `DEMO.gif` on `~/Desktop`.
+
+  ### How to measure the performance
+
+  #### Unit Test
+
+  > Show output for each input?
+  > Drawing detail of result?
+  > Test for debugging?
+  >
+  > - Pose Estimation: draw dot each point and joint, print confidence each point.
+  > - ...
+
+  #### Bunch Test (planning...)
+
+  > Analyze outputs from a bunch of inputs
+  >
+  > - average of inference time and fps
+  > - accumulate execution time, fps...?
+  > - rendering time
+  > - total execution time
+  > - ...

@@ -24,11 +24,7 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
 - [Create ML Projects](#Create-ML-Projects)
 - [Performance](#Performance)
   - [📏Measure module](#measure-module)
-  - [Test](#test)
-    - [Unit Test](#Unit-Test)
-    - [Bunch Test (planning...)](#bunch-test-planning)
   - [Implements](#Implements)
-- [Author](#Author)
 - [See also](#See-also)
 
 ## Machine Learning Framework for iOS
@@ -120,9 +116,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 ## Performance
 
-> Execution Time: Inference Time + Postprocessing Time
->
-> WordRecognition-CoreML-MLKit: Text Detection(Core ML built-in model) + Text Recognition(ML Kit built-in model)
+Execution Time: Inference Time + Postprocessing Time
 
 |              (with iPhone X) | Inference Time(ms) | Execution Time(ms) |   FPS   |
 | ---------------------------: | :----------------: | :----------------: | :-----: |
@@ -139,28 +133,9 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 You can see the measured latency time for inference or execution and FPS on the top of the screen.
 
+> If you have more elegant method for measuring the performance, suggest on issue!
+
 <img src="Resource/measure_ui.jpeg" width="320"/>
-
-### Test
-
-#### Unit Test
-
-> Show output for each input?
-> Drawing detail of result?
-> Test for debugging?
->
-> - Pose Estimation: draw dot each point and joint, print confidence each point.
-> - ...
-
-#### Bunch Test (planning...)
-
-> Analyze outputs from a bunch of inputs
->
-> - average of inference time and fps
-> - accumulate execution time, fps...?
-> - rendering time
-> - total execution time
-> - ...
 
 ### Implements
 
