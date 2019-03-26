@@ -94,6 +94,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | [SSDMobileNet-CoreML](https://github.com/tucan9389/SSDMobileNet-CoreML) | <p align="center"><img src="Resource/SSDMobileNetV2-DEMO.gif" width="200"/></p> | - |
 | [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | <p align="center"><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | - |
 | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | <p align="center"><img src="Resource/TextRecognition-MLKit_DEMO002.gif" width="200"/></p> | - |
+| [FaceDetection-MLKit](https://github.com/tucan9389/FaceDetection-MLKit) | <p align="center"><img src="Resource/FaceDetection-MLKit-DEMO.gif" width="200"/></p> | - |
 
 ## Application Projects
 
@@ -128,6 +129,7 @@ Execution Time: Inference Time + Postprocessing Time
 |         TextDetection-CoreML |         12         |         13         | 30(max) |
 |        TextRecognition-MLKit |       35~200       |       40~200       |  5~20   |
 | WordRecognition-CoreML-MLKit |         23         |         30         |   14    |
+| FaceDetection-MLKit          |         -          |          -         |   -     |
 
 ### 📏Measure module
 
