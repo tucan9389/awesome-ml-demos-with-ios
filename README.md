@@ -76,7 +76,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 
 | Name | DEMO | Note |
 | ---- | ---- | ---- |
-| [MobileNet-CoreML](https://github.com/tucan9389/MobileNet-CoreML) | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | - |
+| [ImageClassification-CoreML](https://github.com/tucan9389/ImageClassification-CoreML) | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | - |
 | [MobileNet-MLKit](https://github.com/tucan9389/MobileNet-MLKit) | <p align="center"><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> | - |
 
 ### Pose Estimation
@@ -121,7 +121,7 @@ Execution Time: Inference Time + Postprocessing Time
 
 |              (with iPhone X) | Inference Time(ms) | Execution Time(ms) |   FPS   |
 | ---------------------------: | :----------------: | :----------------: | :-----: |
-|             MobileNet-CoreML |         40         |         40         |   23    |
+|   ImageClassification-CoreML |         40         |         40         |   23    |
 |              MobileNet-MLKit |        120         |        130         |    6    |
 |        PoseEstimation-CoreML |         51         |         65         |   14    |
 |         PoseEstimation-MLKit |        200         |        217         |    3    |
@@ -142,14 +142,14 @@ You can see the measured latency time for inference or execution and FPS on the 
 ### Implements
 
 |                       | Measure📏 | Unit Test | Bunch Test |
-| --------------------: | :------: | :-------: | :--------: |
-|      MobileNet-CoreML |    O     |     X     |     X      |
-|       MobileNet-MLKit |    O     |     X     |     X      |
-| PoseEstimation-CoreML |    O     |     O     |     X      |
-|  PoseEstimation-MLKit |    O     |     X     |     X      |
-|   SSDMobileNet-CoreML |    O     |     O     |     X      |
-|  TextDetection-CoreML |    O     |     X     |     X      |
-| TextRecognition-MLKit |    O     |     X     |     X      |
+| --------------------: | :-------: | :-------: | :--------: |
+| ImageClassification-CoreML | O    |     X     |     X      |
+|       MobileNet-MLKit |    O      |     X     |     X      |
+| PoseEstimation-CoreML |    O      |     O     |     X      |
+|  PoseEstimation-MLKit |    O      |     X     |     X      |
+|   SSDMobileNet-CoreML |    O      |     O     |     X      |
+|  TextDetection-CoreML |    O      |     X     |     X      |
+| TextRecognition-MLKit |    O      |     X     |     X      |
 
 ## See also
 
