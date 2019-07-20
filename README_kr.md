@@ -55,8 +55,8 @@ Core ML과 ML Kit(TensorFlow Lite)를 이용해 iOS에서 머신러닝을 돌려
 
 MobileNet 모델을 실행시켜본 예제입니다.
 
-1. [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)
-2. [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)
+1. [MobileNet-CoreML](https://github.com/tucan9389/MobileNet-CoreML)
+2. [MobileNet-MLKit](https://github.com/tucan9389/MobileNet-MLKit)
 
 |                    [MobileNet-CoreML](https://github.com/tucan9389/MobileNetApp-CoreML)                    |                    [MobileNet-MLKit](https://github.com/tucan9389/MobileNetApp-MLKit)                     |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
