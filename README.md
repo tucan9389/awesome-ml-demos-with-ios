@@ -17,8 +17,8 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
   - [Flow of Model When Using Create ML](#Flow-of-Model-When-Using-Create-ML)
 - [Baseline Projects](#Baseline-Projects)
   - [Image Classification](#Image-Classification)
-  - [Pose Estimation](#Pose-Estimation)
   - [Object Detection & Recognition](#Object-Detection--Recognition)
+  - [Image Estimation](#Image-Estimation)
 - [Application Projects](#Application-Projects)
   - [Annotation Tool](#Annotation-Tool)
 - [Create ML Projects](#Create-ML-Projects)
@@ -79,14 +79,6 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | [ImageClassification-CoreML](https://github.com/tucan9389/ImageClassification-CoreML) | <p align="center"><img src="Resource/MobileNet-CoreML-DEMO.gif" width="200"/></p> | - |
 | [MobileNet-MLKit](https://github.com/tucan9389/MobileNet-MLKit) | <p align="center"><img src="Resource/MobileNet-MLKit-DEMO.gif" width="200"/></p> | - |
 
-### Pose Estimation
-
-| Name | DEMO | Note |
-| ---- | ---- | ---- |
-| [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | <p align="center"><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | - |
-| [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) | <p align="center"><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> | - |
-| [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) | <p align="center"><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | - |
-
 ### Object Detection & Recognition
 
 | Name | DEMO | Note |
@@ -95,6 +87,15 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | [TextDetection-CoreML](https://github.com/tucan9389/TextDetection-CoreML) | <p align="center"><img src="Resource/TextDetection-CoreML_DEMO001.gif" width="200"/></p> | - |
 | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | <p align="center"><img src="Resource/TextRecognition-MLKit_DEMO002.gif" width="200"/></p> | - |
 | [FaceDetection-MLKit](https://github.com/tucan9389/FaceDetection-MLKit) | <p align="center"><img src="Resource/FaceDetection-MLKit-DEMO.gif" width="200"/></p> | - |
+
+### Image Estimation
+
+| Name | DEMO | Note |
+| ---- | ---- | ---- |
+| [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | <p align="center"><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | - |
+| [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) | <p align="center"><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> | - |
+| [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) | <p align="center"><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | - |
+| [DepthPrediction-CoreML](https://github.com/tucan9389/DepthPrediction-CoreML) | <p align="center"><img src="Resource/190727-depthprediction-demo001.gif" width="200"/></p> | - |
 
 ## Application Projects
 
@@ -123,11 +124,12 @@ Execution Time: Inference Time + Postprocessing Time
 | ---------------------------: | :----------------: | :----------------: | :-----: |
 |   ImageClassification-CoreML |         40         |         40         |   23    |
 |              MobileNet-MLKit |        120         |        130         |    6    |
-|        PoseEstimation-CoreML |         51         |         65         |   14    |
-|         PoseEstimation-MLKit |        200         |        217         |    3    |
 |       ObjectDetection-CoreML |  100 ~ 120         |    110 ~ 130       |    5    |
 |         TextDetection-CoreML |         12         |         13         | 30(max) |
 |        TextRecognition-MLKit |       35~200       |       40~200       |  5~20   |
+|        PoseEstimation-CoreML |         51         |         65         |   14    |
+|         PoseEstimation-MLKit |        200         |        217         |    3    |
+|       DepthPrediction-CoreML |        624         |        640         |    1    |
 | WordRecognition-CoreML-MLKit |         23         |         30         |   14    |
 | FaceDetection-MLKit          |         -          |          -         |   -     |
 
@@ -145,11 +147,12 @@ You can see the measured latency time for inference or execution and FPS on the 
 | -------------------------: | :-------: | :-------: | :--------: |
 | ImageClassification-CoreML |    O      |     X     |     X      |
 |            MobileNet-MLKit |    O      |     X     |     X      |
-|      PoseEstimation-CoreML |    O      |     O     |     X      |
-|       PoseEstimation-MLKit |    O      |     X     |     X      |
 |     ObjectDetection-CoreML |    O      |     O     |     X      |
 |       TextDetection-CoreML |    O      |     X     |     X      |
 |      TextRecognition-MLKit |    O      |     X     |     X      |
+|      PoseEstimation-CoreML |    O      |     O     |     X      |
+|       PoseEstimation-MLKit |    O      |     X     |     X      |
+|     DepthPrediction-CoreML |    O      |     X     |     X      |
 
 ## See also
 
