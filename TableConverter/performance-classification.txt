@@ -1,0 +1,51 @@
+XS Max
+MobileNet           : 18 20 23
+MobileNetV2         : 18 21 23
+MobileNetV2FP16     : 19 21 23
+MobileNetV2Int8LUT  : 21 23 23
+Resnet50            : 25 28 23
+Resnet50FP16        : 26 28 23
+Resnet50Int8LUT     : 25 28 23
+Resnet50Headless    : 13 13 23
+SqueezeNet          : 17 18 23
+SqueezeNetFP16      : 17 18 23
+SqueezeNetInt8LUT   : 19 20 23
+
+XR
+MobileNet           : 19 21 23
+MobileNetV2         : 21 23 23
+MobileNetV2FP16     : 20 23 23
+MobileNetV2Int8LUT  : 20 22 23
+Resnet50            : 26 29 23
+Resnet50FP16        : 27 30 23
+Resnet50Int8LUT     : 26 28 23
+Resnet50Headless    : 18 18 23
+SqueezeNet          : 18 20 23
+SqueezeNetFP16      : 18 19 23
+SqueezeNetInt8LUT   : 18 19 23
+
+7+
+MobileNet           : 43 46 20
+MobileNetV2         : 64 67 13
+MobileNetV2FP16     : 65 69 13
+MobileNetV2Int8LUT  : 64 67 13
+Resnet50            : 78 82 11
+Resnet50FP16        : 75 78 11
+Resnet50Int8LUT     : 77 80 11
+Resnet50Headless    : 54 54 16
+SqueezeNet          : 35 37 23
+SqueezeNetFP16      : 36 38 22
+SqueezeNetInt8LUT   : 34 37 23
+
+7
+MobileNet           : 35 37 23
+MobileNetV2         : 53 55 17
+MobileNetV2FP16     : 57 60 15
+MobileNetV2Int8LUT  : 53 56 16
+Resnet50            : 63 66 14
+Resnet50FP16        : 74 76 12
+Resnet50Int8LUT     : 75 78 12
+Resnet50Headless    : 53 54 17
+SqueezeNet          : 29 31 23
+SqueezeNetFP16      : 29 31 23
+SqueezeNetInt8LUT   : 30 32 23
