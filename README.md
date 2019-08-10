@@ -175,6 +175,17 @@ You can see the measured latency time for inference or execution and FPS on the 
   - [WWDC18 708 Session - What’s New in Core ML, Part 1](https://developer.apple.com/videos/play/wwdc2018/708/)
   - [WWDC18 709 Session - What’s New in Core ML, Part 2](https://developer.apple.com/videos/play/wwdc2018/709/)
   - [WWDC18 717 Session - Vision with Core ML](https://developer.apple.com/videos/play/wwdc2018/717/)
+- WWDC19 - Core ML 3
+  - [WWDC19 704 Session - Core ML 3 Framework](https://developer.apple.com/videos/play/wwdc2019/704/)
+  - [WWDC19 232 Session - Advances in Natural Language Framework](https://developer.apple.com/videos/play/wwdc2019/232/)
+  - [WWDC19 228 Session - Creating Great Apps Using Core ML and ARKit](https://developer.apple.com/videos/play/wwdc2019/228/)
+  - [WWDC19 234 Session - Text Recognition in Vision Framework](https://developer.apple.com/videos/play/wwdc2019/228/)
+  - [WWDC19 256 Session - Advances in Speech Recognition](https://developer.apple.com/videos/play/wwdc2019/256/)
+- WWDC19 - Create ML & Turi Create
+  - [WWDC19 209 Session - What's New in Machine Learning](https://developer.apple.com/videos/play/wwdc2019/209/)
+  - [WWDC19 420 Session - Drawing Classification and One-Shot Object Detection in Turi Create](https://developer.apple.com/videos/play/wwdc2019/420/)
+  - [WWDC19 425 Session - Training Sound Classification Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/425/)
+  - [WWDC19 430 Seesion - Introducing the Create ML App](https://developer.apple.com/videos/play/wwdc2019/430/)
 - [ML Kit - Firebase](https://developers.google.com/ml-kit/)
 - [Apple's Core ML 2 vs. Google's ML Kit: What's the difference?](https://venturebeat.com/2018/06/05/apples-core-ml-2-vs-googles-ml-kit-whats-the-difference/)
 - [iOS에서 머신러닝 슬라이드 자료](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing)
