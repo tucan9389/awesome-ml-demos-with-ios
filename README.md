@@ -167,26 +167,56 @@ You can see the measured latency time for inference or execution and FPS on the 
 
 - [Core ML | Apple Developer Documentation](https://developer.apple.com/documentation/coreml)
 - [Machine Learning - Apple Developer](https://developer.apple.com/machine-learning/)
-- WWDC17 - Core ML
-  - [WWDC17 703 Session - Introducing Core ML](https://developer.apple.com/videos/play/wwdc2017/703/)
-  - [WWDC17 710 Session - Core ML in depth](https://developer.apple.com/videos/play/wwdc2017/710/)
-  - [WWDC17 506 Session - Vision Framework: Building on Core ML](https://developer.apple.com/videos/play/wwdc2017/506)
-- WWDC18 - Core ML 2
-  - [WWDC18 708 Session - What’s New in Core ML, Part 1](https://developer.apple.com/videos/play/wwdc2018/708/)
-  - [WWDC18 709 Session - What’s New in Core ML, Part 2](https://developer.apple.com/videos/play/wwdc2018/709/)
-  - [WWDC18 717 Session - Vision with Core ML](https://developer.apple.com/videos/play/wwdc2018/717/)
-- WWDC19 - Core ML 3
-  - [WWDC19 704 Session - Core ML 3 Framework](https://developer.apple.com/videos/play/wwdc2019/704/)
-  - [WWDC19 232 Session - Advances in Natural Language Framework](https://developer.apple.com/videos/play/wwdc2019/232/)
-  - [WWDC19 228 Session - Creating Great Apps Using Core ML and ARKit](https://developer.apple.com/videos/play/wwdc2019/228/)
-  - [WWDC19 234 Session - Text Recognition in Vision Framework](https://developer.apple.com/videos/play/wwdc2019/228/)
-  - [WWDC19 256 Session - Advances in Speech Recognition](https://developer.apple.com/videos/play/wwdc2019/256/)
-- WWDC19 - Create ML & Turi Create
-  - [WWDC19 209 Session - What's New in Machine Learning](https://developer.apple.com/videos/play/wwdc2019/209/)
-  - [WWDC19 420 Session - Drawing Classification and One-Shot Object Detection in Turi Create](https://developer.apple.com/videos/play/wwdc2019/420/)
-  - [WWDC19 425 Session - Training Sound Classification Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/425/)
-  - [WWDC19 430 Seesion - Introducing the Create ML App](https://developer.apple.com/videos/play/wwdc2019/430/)
 - [ML Kit - Firebase](https://developers.google.com/ml-kit/)
 - [Apple's Core ML 2 vs. Google's ML Kit: What's the difference?](https://venturebeat.com/2018/06/05/apples-core-ml-2-vs-googles-ml-kit-whats-the-difference/)
 - [iOS에서 머신러닝 슬라이드 자료](https://docs.google.com/presentation/d/1wA_PAjllpLLcFPuZcERYbQlPe1Ipb-bzIZinZg3zXkg/edit?usp=sharing)
 - [MoT Labs Blog](https://motlabs.github.io/)
+
+### WWDC
+
+#### Core ML
+- WWDC2019
+  - [WWDC2019 256 Session - Advances in Speech Recognition](https://developer.apple.com/videos/play/wwdc2019/256/)
+  - [WWDC2019 704 Session - Core ML 3 Framework](https://developer.apple.com/videos/play/wwdc2019/704/)
+  - [WWDC2019 228 Session - Creating Great Apps Using Core ML and ARKit](https://developer.apple.com/videos/play/wwdc2019/228/)
+  - [WWDC2019 232 Session - Advances in Natural Language Framework](https://developer.apple.com/videos/play/wwdc2019/232/)
+  - [WWDC2019 222 Session - Understanding Images in Vision Framework](https://developer.apple.com/videos/play/wwdc2019/222/)
+  - [WWDC2019 234 Session - Text Recognition in Vision Framework](https://developer.apple.com/videos/play/wwdc2019/234/)
+- WWDC2018
+  - [WWDC2018 708 Session - What’s New in Core ML, Part 1](https://developer.apple.com/videos/play/wwdc2018/708/)
+  - [WWDC2018 716 Session - Object Tracking in Vision](https://developer.apple.com/videos/play/wwdc2018/716/)
+  - [WWDC2018 717 Session - Vision with Core ML](https://developer.apple.com/videos/play/wwdc2018/717/)
+  - [WWDC2018 709 Session - What’s New in Core ML, Part 2](https://developer.apple.com/videos/play/wwdc2018/709/)
+  - [WWDC2018 713 Session - Introducing Natural Language Framework](https://developer.apple.com/videos/play/wwdc2018/713/)
+- WWDC2017
+  - [WWDC2017 710 Session - Core ML in depth](https://developer.apple.com/videos/play/wwdc2017/710/)
+  - [WWDC2017 208 Session - Natural Language Processing and your Apps](https://developer.apple.com/videos/play/wwdc2017/208/)
+  - [WWDC2017 510 Session - Advances in Core Image: Filters, Metal, Vision, and More](https://developer.apple.com/videos/play/wwdc2017/510/)
+  - [WWDC2017 506 Session - Vision Framework: Building on Core ML](https://developer.apple.com/videos/play/wwdc2017/506/)
+  - [WWDC2017 703 Session - Introducing Core ML](https://developer.apple.com/videos/play/wwdc2017/703/)
+
+#### Create ML and Turi Create
+
+- WWDC2019
+  - [WWDC2019 424 Session - Training Object Detection Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/424/)
+  - [WWDC2019 426 Session - Building Activity Classification Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/426/)
+  - [WWDC2019 420 Session - Drawing Classification and One-Shot Object Detection in Turi Create](https://developer.apple.com/videos/play/wwdc2019/420/)
+  - [WWDC2019 425 Session - Training Sound Classification Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/425/)
+  - [WWDC2019 428 Session - Training Text Classifiers in Create ML](https://developer.apple.com/videos/play/wwdc2019/428/)
+  - [WWDC2019 427 Session - Training Recommendation Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/427/)
+  - [WWDC2019 430 Session - Introducing the Create ML App](https://developer.apple.com/videos/play/wwdc2019/430/)
+- WWDC2018
+  - [WWDC2018 712 Session - A Guide to Turi Create](https://developer.apple.com/videos/play/wwdc2018/712/)
+  - [WWDC2018 703 Session - Introducing Create ML](https://developer.apple.com/videos/play/wwdc2018/703/)
+
+#### Common ML
+
+- WWDC2019
+  - [WWDC2019 803 Session - Designing Great ML Experiences](https://developer.apple.com/videos/play/wwdc2019/803/)
+  - [WWDC2019 614 Session - Metal for Machine Learning](https://developer.apple.com/videos/play/wwdc2019/614/)
+  - [WWDC2019 209 Session - What's New in Machine Learning](https://developer.apple.com/videos/play/wwdc2019/209/)
+- WWDC2018
+  - [WWDC2018 609 Session - Metal for Accelerating Machine Learning](https://developer.apple.com/videos/play/wwdc2018/609/)
+- WWDC2016
+  - [WWDC2016 715 Session - Neural Networks and Accelerate](https://developer.apple.com/videos/play/wwdc2016/715/)
+  - [WWDC2016 605 Session - What's New in Metal, Part 2](https://developer.apple.com/videos/play/wwdc2016/605/)  
