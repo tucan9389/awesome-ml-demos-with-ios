@@ -19,7 +19,7 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
   - [Image Classification](#Image-Classification)
   - [Object Detection & Recognition](#Object-Detection--Recognition)
   - [Image Estimation](#Image-Estimation)
-  - [Object Segmentation](#Object-Segmentation)
+  - [Image Segmentation](#Image-Segmentation)
 - [Application Projects](#Application-Projects)
   - [Annotation Tool](#Annotation-Tool)
 - [Create ML Projects](#Create-ML-Projects)
@@ -98,11 +98,11 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) | <p align="center"><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | - |
 | [DepthPrediction-CoreML](https://github.com/tucan9389/DepthPrediction-CoreML) | <p align="center"><img src="Resource/190727-depthprediction-demo001.gif" width="200"/></p> | - |
 
-### Object Segmentation
+### Image Segmentation
 
 | Name | DEMO | Note |
 | ---- | ---- | ---- |
-| [ObjectSegmentation-CoreML](https://github.com/tucan9389/ObjectSegmentation-CoreML) |  <p align="center"><img src="Resource/190727-objectsegmentation-demo001.gif" width="200"/></p> | - |
+| [ImageSegmentation-CoreML](https://github.com/tucan9389/ImageSegmentation-CoreML) |  <p align="center"><img src="Resource/190727-objectsegmentation-demo001.gif" width="200"/></p> | - |
 
 ## Application Projects
 
@@ -137,7 +137,7 @@ Execution Time: Inference Time + Postprocessing Time
 |        PoseEstimation-CoreML |         51         |         65         |   14    |
 |         PoseEstimation-MLKit |        200         |        217         |    3    |
 |       DepthPrediction-CoreML |        624         |        640         |    1    |
-|    ObjectSegmentation-CoreML |        178         |        509         |    1    |
+|    ImageSegmentation-CoreML |        178         |        509         |    1    |
 | WordRecognition-CoreML-MLKit |         23         |         30         |   14    |
 | FaceDetection-MLKit          |         -          |          -         |   -     |
 
@@ -161,7 +161,7 @@ You can see the measured latency time for inference or execution and FPS on the 
 |      PoseEstimation-CoreML |    O      |     O     |     X      |
 |       PoseEstimation-MLKit |    O      |     X     |     X      |
 |     DepthPrediction-CoreML |    O      |     X     |     X      |
-|  ObjectSegmentation-CoreML |    O      |     X     |     X      |
+|  ImageSegmentation-CoreML |    O      |     X     |     X      |
 
 ## See also
 
