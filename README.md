@@ -33,9 +33,10 @@ We tackle the challenge of using machine learning models on iOS via Core ML and 
 ## Machine Learning Framework for iOS
 
 - [Core ML](https://developer.apple.com/documentation/coreml)
-- [ML Kit](https://developers.google.com/ml-kit/)
+- [TensorFlow Lite](https://www.tensorflow.org/lite)
+- [Pytorch Mobile](https://pytorch.org/mobile/home/)
 - [fritz](https://www.fritz.ai/)
-- etc. ([Tensorflow Lite](https://www.tensorflow.org/mobile/tflite/), ~~[Tensorflow Mobile](https://www.tensorflow.org/mobile/)~~`DEPRECATED`)
+- etc. ~~[Tensorflow Mobile](https://www.tensorflow.org/mobile/)~~`DEPRECATED`)
 
 
 ### Flow of Model When Using Core ML
