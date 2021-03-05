@@ -223,3 +223,12 @@ You can see the measured latency time for inference or execution and FPS on the 
 - WWDC2016
   - [WWDC2016 715 Session - Neural Networks and Accelerate](https://developer.apple.com/videos/play/wwdc2016/715/)
   - [WWDC2016 605 Session - What's New in Metal, Part 2](https://developer.apple.com/videos/play/wwdc2016/605/)  
+
+### Examples
+
+- Keras examples: https://keras.io/examples/
+- TensorFlow models: https://tfhub.dev/
+- Pytorch examples: https://github.com/pytorch/examples
+- CoreML official models: https://developer.apple.com/machine-learning/models/
+- TFLite examples: https://www.tensorflow.org/lite/examples
+- Pytorch Mobile iOS example: https://github.com/pytorch/ios-demo-app
