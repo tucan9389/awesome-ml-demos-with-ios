@@ -227,7 +227,7 @@ You can see the measured latency time for inference or execution and FPS on the 
 ### Examples
 
 - Keras examples: https://keras.io/examples/
-- TensorFlow models: https://tfhub.dev/
+- TensorFlow & TFLite models: https://tfhub.dev/
 - Pytorch examples: https://github.com/pytorch/examples
 - CoreML official models: https://developer.apple.com/machine-learning/models/
 - TFLite examples: https://www.tensorflow.org/lite/examples
