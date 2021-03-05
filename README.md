@@ -232,3 +232,4 @@ You can see the measured latency time for inference or execution and FPS on the 
 - CoreML official models: https://developer.apple.com/machine-learning/models/
 - TFLite examples: https://www.tensorflow.org/lite/examples
 - Pytorch Mobile iOS example: https://github.com/pytorch/ios-demo-app
+- FritzLabs examples: https://github.com/fritzlabs/fritz-examples
