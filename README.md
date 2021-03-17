@@ -92,20 +92,26 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | [TextRecognition-MLKit](https://github.com/tucan9389/TextRecognition-MLKit) | <p align="center"><img src="Resource/TextRecognition-MLKit_DEMO002.gif" width="200"/></p> | - |
 | [FaceDetection-MLKit](https://github.com/tucan9389/FaceDetection-MLKit) | <p align="center"><img src="Resource/FaceDetection-MLKit-DEMO.gif" width="200"/></p> | - |
 
-### Image Estimation
+### Pose Estimation
 
 | Name | DEMO | Note |
-| ---- | ---- | ---- |
+| ---- | :--- | ---- |
 | [PoseEstimation-CoreML](https://github.com/tucan9389/PoseEstimation-CoreML) | <p align="center"><img src="Resource/180801-poseestimation-demo.gif" width="200"/></p> | - |
-| [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) | <p align="center"><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> | - |
+| [PoseEstimation-TFLiteSwift](https://github.com/tucan9389/PoseEstimation-TFLiteSwift) | <img src="https://user-images.githubusercontent.com/37643248/77227994-99ba2a80-6bc7-11ea-9b08-9bb57723bc42.gif" width=200px><img src="https://user-images.githubusercontent.com/37643248/110994933-e68ca780-83bc-11eb-8331-d827e19d2d36.gif" width=200px> | -    |
+| [PoseEstimation-MLKit](https://github.com/tucan9389/PoseEstimation-MLKit) | <p align="center"><img src="Resource/PoseEstimation-MLKit-hourglass.gif" width="200"/></p> | -    |
 | [FingertipEstimation-CoreML](https://github.com/tucan9389/FingertipEstimation-CoreML) | <p align="center"><img src="Resource/fingertip_estimation_demo003.gif" width="200"/></p> | - |
-| [DepthPrediction-CoreML](https://github.com/tucan9389/DepthPrediction-CoreML) | <p align="center"><img src="Resource/190727-depthprediction-demo001.gif" width="200"/></p> | - |
+
+### Depth Prediction
+
+|                                                              |                                                              |      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [DepthPrediction-CoreML](https://github.com/tucan9389/DepthPrediction-CoreML) | <p align="center"><img src="Resource/190727-depthprediction-demo001.gif" width="200"/></p> | -    |
 
 ### Image Segmentation
 
 | Name | DEMO | Note |
 | ---- | ---- | ---- |
-| [ImageSegmentation-CoreML](https://github.com/tucan9389/ImageSegmentation-CoreML) |  <p align="center"><img src="Resource/190727-objectsegmentation-demo001.gif" width="200"/></p> | - |
+| [ImageSegmentation-CoreML](https://github.com/tucan9389/ImageSegmentation-CoreML) | <p align="center"><img src="Resource/190727-objectsegmentation-demo001.gif" width="200"/><img src="https://user-images.githubusercontent.com/37643248/110972921-e8943d80-839f-11eb-9559-2a32d3b56de0.gif" width=200px></p> | - |
 
 ## Application Projects
 
@@ -178,6 +184,18 @@ You can see the measured latency time for inference or execution and FPS on the 
 ### WWDC
 
 #### Core ML
+
+- WWDC2020
+  - [WWDC2020 10152 Session - Use model deployment and security with Core ML](https://developer.apple.com/videos/play/wwdc2020/10152/)
+  - [WWDC2020 10153 Session - Get models on device using Core ML Converters](https://developer.apple.com/videos/play/wwdc2020/10153/)
+  - Vision
+    - [WWDC2020 10673 Session - Explore Computer Vision APIs](https://developer.apple.com/videos/play/wwdc2020/10673/)
+    - [WWDC2020 10099 Session - Explore the Action & Vision app](https://developer.apple.com/videos/play/wwdc2020/10099/)
+    - [WWDC2020 10653 Session - Detect Body and Hand Pose with Vision](https://developer.apple.com/videos/play/wwdc2020/10653/)
+    - [TECH-TALKS 206 Session - QR Code Recognition on iOS 11](https://developer.apple.com/videos/play/tech-talks/206/)
+  - NLP
+    - [WWDC2020 10657 Session - Make apps smarter with Natural Language](https://developer.apple.com/videos/play/wwdc2020/10657/)
+
 - WWDC2019
   - [WWDC2019 256 Session - Advances in Speech Recognition](https://developer.apple.com/videos/play/wwdc2019/256/)
   - [WWDC2019 704 Session - Core ML 3 Framework](https://developer.apple.com/videos/play/wwdc2019/704/)
@@ -200,6 +218,11 @@ You can see the measured latency time for inference or execution and FPS on the 
 
 #### Create ML and Turi Create
 
+- WWDC2020
+  - [WWDC2020 10642 Session - Build Image and Video Style Transfer models in Create ML](https://developer.apple.com/videos/play/wwdc2020/10642/)
+  - [WWDC2020 10156 Session - Control training in Create ML with Swift](https://developer.apple.com/videos/play/wwdc2020/10156/)
+  - [WWDC2020 10043 Session - Build an Action Classifier with Create ML](https://developer.apple.com/videos/play/wwdc2020/10043/)
+
 - WWDC2019
   - [WWDC2019 424 Session - Training Object Detection Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/424/)
   - [WWDC2019 426 Session - Building Activity Classification Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/426/)
@@ -214,6 +237,9 @@ You can see the measured latency time for inference or execution and FPS on the 
 
 #### Common ML
 
+- WWDC2020
+  - [WWDC2020 10677 Session - Build customized ML models with the Metal Performance Shaders Graph](https://developer.apple.com/videos/play/wwdc2020/10677/)
+
 - WWDC2019
   - [WWDC2019 803 Session - Designing Great ML Experiences](https://developer.apple.com/videos/play/wwdc2019/803/)
   - [WWDC2019 614 Session - Metal for Machine Learning](https://developer.apple.com/videos/play/wwdc2019/614/)
@@ -223,6 +249,37 @@ You can see the measured latency time for inference or execution and FPS on the 
 - WWDC2016
   - [WWDC2016 715 Session - Neural Networks and Accelerate](https://developer.apple.com/videos/play/wwdc2016/715/)
   - [WWDC2016 605 Session - What's New in Metal, Part 2](https://developer.apple.com/videos/play/wwdc2016/605/)  
+
+### Metal
+
+- WWDC2020
+  - [WWDC2020 10632 Session - Optimize Metal Performance for Apple Silicon Macs](https://developer.apple.com/videos/play/wwdc2020/10632/)
+  - [WWDC2020 10603 Session - Optimize Metal apps and games with GPU counters](https://developer.apple.com/videos/play/wwdc2020/10603/)
+  - [TECH-TALKS 606 Session - Metal 2 on A11 - Imageblock Sample Coverage Control](https://developer.apple.com/videos/play/tech-talks/606/)
+  - [TECH-TALKS 603 Session - Metal 2 on A11 - Imageblocks](https://developer.apple.com/videos/play/tech-talks/603/)
+  - [TECH-TALKS 602 Session - Metal 2 on A11 - Overview](https://developer.apple.com/videos/play/tech-talks/602/)
+  - [TECH-TALKS 605 Session - Metal 2 on A11 - Raster Order Groups](https://developer.apple.com/videos/play/tech-talks/605/)
+  - [TECH-TALKS 604 Session - Metal 2 on A11 - Tile Shading](https://developer.apple.com/videos/play/tech-talks/604/)
+  - [TECH-TALKS 608 Session - Metal Enhancements for A13 Bionic](https://developer.apple.com/videos/play/tech-talks/608/)
+  - [WWDC2020 10631 Session - Bring your Metal app to Apple Silicon Macs](https://developer.apple.com/videos/play/wwdc2020/10631/)
+  - [WWDC2020 10197 Session - Broaden your reach with Siri Event Suggestions](https://developer.apple.com/videos/play/wwdc2020/10197/)
+  - [WWDC2020 10615 Session - Build GPU binaries with Metal](https://developer.apple.com/videos/play/wwdc2020/10615/)
+  - [WWDC2020 10021 Session - Build Metal-based Core Image kernels with Xcode](https://developer.apple.com/videos/play/wwdc2020/10021/)
+  - [WWDC2020 10616 Session - Debug GPU-side errors in Metal](https://developer.apple.com/videos/play/wwdc2020/10616/)
+  - [WWDC2020 10012 Session - Discover ray tracing with Metal](https://developer.apple.com/videos/play/wwdc2020/10012/)
+  - [WWDC2020 10013 Session - Get to know Metal function pointers](https://developer.apple.com/videos/play/wwdc2020/10013/)
+  - [WWDC2020 10605 Session - Gain insights into your Metal app with Xcode 12](https://developer.apple.com/videos/play/wwdc2020/10605/)
+  - [WWDC2020 10602 Session - Harness Apple GPUs with Metal](https://developer.apple.com/videos/play/wwdc2020/10602/)
+
+### AR
+
+- WWDC2020
+  - [TECH-TALKS 609 Session - Advanced Scene Understanding in AR](https://developer.apple.com/videos/play/tech-talks/609/)
+  - [TECH-TALKS 601 Session - Face Tracking with ARKit](https://developer.apple.com/videos/play/tech-talks/601/)
+  - [WWDC2020 10611 Session - Explore ARKit 4](https://developer.apple.com/videos/play/wwdc2020/10611/)
+  - [WWDC2020 10604 Session - Shop online with AR Quick Look](https://developer.apple.com/videos/play/wwdc2020/10604/)
+  - [WWDC2020 10601 Session - The artist’s AR toolkit](https://developer.apple.com/videos/play/wwdc2020/10601/)
+  - [WWDC2020 10613 Session - What's new in USD](https://developer.apple.com/videos/play/wwdc2020/10613/)
 
 ### Examples
 
