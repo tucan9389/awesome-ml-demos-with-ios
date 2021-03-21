@@ -222,7 +222,6 @@ You can see the measured latency time for inference or execution and FPS on the 
   - [WWDC2020 10642 Session - Build Image and Video Style Transfer models in Create ML](https://developer.apple.com/videos/play/wwdc2020/10642/)
   - [WWDC2020 10156 Session - Control training in Create ML with Swift](https://developer.apple.com/videos/play/wwdc2020/10156/)
   - [WWDC2020 10043 Session - Build an Action Classifier with Create ML](https://developer.apple.com/videos/play/wwdc2020/10043/)
-
 - WWDC2019
   - [WWDC2019 424 Session - Training Object Detection Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/424/)
   - [WWDC2019 426 Session - Building Activity Classification Models in Create ML](https://developer.apple.com/videos/play/wwdc2019/426/)
@@ -239,7 +238,6 @@ You can see the measured latency time for inference or execution and FPS on the 
 
 - WWDC2020
   - [WWDC2020 10677 Session - Build customized ML models with the Metal Performance Shaders Graph](https://developer.apple.com/videos/play/wwdc2020/10677/)
-
 - WWDC2019
   - [WWDC2019 803 Session - Designing Great ML Experiences](https://developer.apple.com/videos/play/wwdc2019/803/)
   - [WWDC2019 614 Session - Metal for Machine Learning](https://developer.apple.com/videos/play/wwdc2019/614/)
