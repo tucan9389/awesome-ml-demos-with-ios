@@ -292,3 +292,5 @@ You can see the measured latency time for inference or execution and FPS on the 
   - TensorFlow & TFLite models: https://tfhub.dev/
   - Pytorch models: https://pytorch.org/hub/
   - CoreML official models: https://developer.apple.com/machine-learning/models/
+
+- [DailyVox](https://getdailyvox.com) - On-device NLP: sentiment analysis and entity recognition from voice journal entries using NaturalLanguage framework. ([App Store](https://apps.apple.com/app/id6760454642))
