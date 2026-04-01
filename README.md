@@ -119,6 +119,7 @@ Once the compatible model is prepared, you can run the inference using the ML fr
 | ---- | ---- | ---- |
 | [dont-be-turtle-ios](https://github.com/motlabs/dont-be-turtle-ios) | <p align="center"><img src="Resource/dont-be-turtle_demo_004.gif" width="200"/></p> | - |
 | [WordRecognition-CoreML-MLKit](https://github.com/tucan9389/WordRecognition-CoreML-MLKit)(preparing...) | <p align="center"><img src="Resource/recognition_a_word_demo002.gif" width="200"/></p> | Detect character, find a word what I point and then recognize the word using Core ML and ML Kit. |
+| [Pilgrim](https://github.com/walktalkmeditate/pilgrim-ios) | <p align="center"><a href="https://apps.apple.com/app/pilgrim-mindful-walking/id6760921056"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="120"/></a></p> | Mindful walking app using [WhisperKit](https://github.com/argmaxinc/WhisperKit) to run OpenAI Whisper models on-device via CoreML for real-time voice transcription. Users record voice notes during walks, transcribed entirely on-device with no cloud processing. SwiftUI, GPLv3. |
 
 ### Annotation Tool
 
